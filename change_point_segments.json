@@ -1,0 +1,47 @@
+{
+  "pipeline": "OWLv2 detection -> object/task-centric crops -> DINOv2 embeddings -> aggregate -> ruptures temporal segmentation",
+  "algorithm": "ruptures.Pelt(model='rbf', pen=8.0)",
+  "object_streams": [
+    "spoon",
+    "sugar_pile",
+    "source_container",
+    "bucket",
+    "spilled_sugar",
+    "workspace"
+  ],
+  "detection_stride": 3,
+  "owl_score_threshold": 0.12,
+  "dino_model_id": "facebook/dinov2-base",
+  "signal_info": {
+    "raw_embedding_dim": 4608,
+    "signal_dim": 9216,
+    "pca": {
+      "used": false,
+      "reason": "sklearn unavailable, PCA disabled, or dimensions already small"
+    },
+    "uses_delta_embeddings": true
+  },
+  "min_segment_frames": 12,
+  "target_segment_frames": 36,
+  "max_segment_frames": 90,
+  "segments": [
+    {
+      "trajectory_id": "tau_0000",
+      "start_frame": 0,
+      "end_frame": 36,
+      "expected_skill_label": null
+    },
+    {
+      "trajectory_id": "tau_0001",
+      "start_frame": 36,
+      "end_frame": 72,
+      "expected_skill_label": null
+    },
+    {
+      "trajectory_id": "tau_0002",
+      "start_frame": 72,
+      "end_frame": 130,
+      "expected_skill_label": null
+    }
+  ]
+}

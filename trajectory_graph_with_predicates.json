@@ -1,0 +1,839 @@
+{
+  "raw_nodes": [
+    {
+      "raw_node_id": "raw_node_0000_pre",
+      "trajectory_id": "tau_0000",
+      "role": "pre_state",
+      "frame_id": 0,
+      "image_path": "node_images/raw_node_0000_pre.jpg"
+    },
+    {
+      "raw_node_id": "raw_node_0000_post",
+      "trajectory_id": "tau_0000",
+      "role": "post_state",
+      "frame_id": 59,
+      "image_path": "node_images/raw_node_0000_post.jpg"
+    },
+    {
+      "raw_node_id": "raw_node_0001_pre",
+      "trajectory_id": "tau_0001",
+      "role": "pre_state",
+      "frame_id": 60,
+      "image_path": "node_images/raw_node_0001_pre.jpg"
+    },
+    {
+      "raw_node_id": "raw_node_0001_post",
+      "trajectory_id": "tau_0001",
+      "role": "post_state",
+      "frame_id": 119,
+      "image_path": "node_images/raw_node_0001_post.jpg"
+    },
+    {
+      "raw_node_id": "raw_node_0002_pre",
+      "trajectory_id": "tau_0002",
+      "role": "pre_state",
+      "frame_id": 120,
+      "image_path": "node_images/raw_node_0002_pre.jpg"
+    },
+    {
+      "raw_node_id": "raw_node_0002_post",
+      "trajectory_id": "tau_0002",
+      "role": "post_state",
+      "frame_id": 179,
+      "image_path": "node_images/raw_node_0002_post.jpg"
+    },
+    {
+      "raw_node_id": "raw_node_0003_pre",
+      "trajectory_id": "tau_0003",
+      "role": "pre_state",
+      "frame_id": 180,
+      "image_path": "node_images/raw_node_0003_pre.jpg"
+    },
+    {
+      "raw_node_id": "raw_node_0003_post",
+      "trajectory_id": "tau_0003",
+      "role": "post_state",
+      "frame_id": 259,
+      "image_path": "node_images/raw_node_0003_post.jpg"
+    },
+    {
+      "raw_node_id": "raw_node_0004_pre",
+      "trajectory_id": "tau_0004",
+      "role": "pre_state",
+      "frame_id": 260,
+      "image_path": "node_images/raw_node_0004_pre.jpg"
+    },
+    {
+      "raw_node_id": "raw_node_0004_post",
+      "trajectory_id": "tau_0004",
+      "role": "post_state",
+      "frame_id": 339,
+      "image_path": "node_images/raw_node_0004_post.jpg"
+    }
+  ],
+  "abstract_nodes": [
+    {
+      "abstract_node_id": "state_0000",
+      "representative_raw_node_id": "raw_node_0000_pre",
+      "representative_image_path": "node_images/raw_node_0000_pre.jpg",
+      "representative_frame_id": 0,
+      "representative_role": "pre_state",
+      "members": [
+        "raw_node_0000_pre"
+      ],
+      "equivalence_checks": [
+        {
+          "candidate_raw_node_id": "raw_node_0000_post",
+          "same_state": false,
+          "confidence": 0.8,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.8,
+            "reason": "The tool positions and the material pile shapes differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.8,\n  \"reason\": \"The tool positions and the material pile shapes differ significantly between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0001_pre",
+          "same_state": false,
+          "confidence": 0.8,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.8,
+            "reason": "The tool positions and material piles differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.8,\n  \"reason\": \"The tool positions and material piles differ significantly between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0001_post",
+          "same_state": false,
+          "confidence": 0.8,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.8,
+            "reason": "The tool positions and the presence of material in the tool differ between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.8,\n  \"reason\": \"The tool positions and the presence of material in the tool differ between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0002_pre",
+          "same_state": false,
+          "confidence": 0.8,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.8,
+            "reason": "The tool positions and the presence of material in the tool differ between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.8,\n  \"reason\": \"The tool positions and the presence of material in the tool differ between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0002_post",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool positions and the presence of material in the tool differ between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool positions and the presence of material in the tool differ between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0003_pre",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool positions and the material piles differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool positions and the material piles differ significantly between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0003_post",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool positions and the material piles differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool positions and the material piles differ significantly between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0004_pre",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool positions and the presence of material in the tool differ between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool positions and the presence of material in the tool differ between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0004_post",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool positions and the presence of material in the tool differ between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool positions and the presence of material in the tool differ between the two images.\"\n}\n```"
+        }
+      ]
+    },
+    {
+      "abstract_node_id": "state_0001",
+      "representative_raw_node_id": "raw_node_0000_post",
+      "representative_image_path": "node_images/raw_node_0000_post.jpg",
+      "representative_frame_id": 59,
+      "representative_role": "post_state",
+      "members": [
+        "raw_node_0000_post"
+      ],
+      "equivalence_checks": [
+        {
+          "candidate_raw_node_id": "raw_node_0001_pre",
+          "same_state": false,
+          "confidence": 0.8,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.8,
+            "reason": "The tool positions and material piles appear to be in different locations in Image A and Image B."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.8,\n  \"reason\": \"The tool positions and material piles appear to be in different locations in Image A and Image B.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0001_post",
+          "same_state": false,
+          "confidence": 0.8,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.8,
+            "reason": "The tool positions and the presence of material in the tool differ between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.8,\n  \"reason\": \"The tool positions and the presence of material in the tool differ between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0002_pre",
+          "same_state": false,
+          "confidence": 0.8,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.8,
+            "reason": "The tool positions and the presence of material in the tool differ between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.8,\n  \"reason\": \"The tool positions and the presence of material in the tool differ between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0002_post",
+          "same_state": false,
+          "confidence": 0.8,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.8,
+            "reason": "The tool positions and the material piles differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.8,\n  \"reason\": \"The tool positions and the material piles differ significantly between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0003_pre",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool positions and the material piles differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool positions and the material piles differ significantly between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0003_post",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool positions and the material piles differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool positions and the material piles differ significantly between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0004_pre",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool positions and the presence of material in the tool differ between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool positions and the presence of material in the tool differ between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0004_post",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool positions and the presence of material in the tool differ between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool positions and the presence of material in the tool differ between the two images.\"\n}\n```"
+        }
+      ]
+    },
+    {
+      "abstract_node_id": "state_0002",
+      "representative_raw_node_id": "raw_node_0001_pre",
+      "representative_image_path": "node_images/raw_node_0001_pre.jpg",
+      "representative_frame_id": 60,
+      "representative_role": "pre_state",
+      "members": [
+        "raw_node_0001_pre"
+      ],
+      "equivalence_checks": [
+        {
+          "candidate_raw_node_id": "raw_node_0001_post",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool positions and material piles differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool positions and material piles differ significantly between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0002_pre",
+          "same_state": false,
+          "confidence": 0.8,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.8,
+            "reason": "The tool positions and material piles differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.8,\n  \"reason\": \"The tool positions and material piles differ significantly between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0002_post",
+          "same_state": false,
+          "confidence": 0.8,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.8,
+            "reason": "The tool positions and material piles differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.8,\n  \"reason\": \"The tool positions and material piles differ significantly between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0003_pre",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool positions and material piles differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool positions and material piles differ significantly between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0003_post",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool positions and material piles differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool positions and material piles differ significantly between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0004_pre",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool positions and the presence of material in the tool differ between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool positions and the presence of material in the tool differ between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0004_post",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool positions and material piles differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool positions and material piles differ significantly between the two images.\"\n}\n```"
+        }
+      ]
+    },
+    {
+      "abstract_node_id": "state_0003",
+      "representative_raw_node_id": "raw_node_0001_post",
+      "representative_image_path": "node_images/raw_node_0001_post.jpg",
+      "representative_frame_id": 119,
+      "representative_role": "post_state",
+      "members": [
+        "raw_node_0001_post"
+      ],
+      "equivalence_checks": [
+        {
+          "candidate_raw_node_id": "raw_node_0002_pre",
+          "same_state": false,
+          "confidence": 0.8,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.8,
+            "reason": "The tool positions and the material pile shapes differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.8,\n  \"reason\": \"The tool positions and the material pile shapes differ significantly between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0002_post",
+          "same_state": false,
+          "confidence": 0.8,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.8,
+            "reason": "The tool positions and material piles differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.8,\n  \"reason\": \"The tool positions and material piles differ significantly between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0003_pre",
+          "same_state": false,
+          "confidence": 0.8,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.8,
+            "reason": "The tool positions and the material piles differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.8,\n  \"reason\": \"The tool positions and the material piles differ significantly between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0003_post",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool positions and the material piles differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool positions and the material piles differ significantly between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0004_pre",
+          "same_state": false,
+          "confidence": 0.8,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.8,
+            "reason": "The tool positions and the presence of material in the tool differ between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.8,\n  \"reason\": \"The tool positions and the presence of material in the tool differ between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0004_post",
+          "same_state": false,
+          "confidence": 0.8,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.8,
+            "reason": "The tool positions and the presence of material in the tool differ between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.8,\n  \"reason\": \"The tool positions and the presence of material in the tool differ between the two images.\"\n}\n```"
+        }
+      ]
+    },
+    {
+      "abstract_node_id": "state_0004",
+      "representative_raw_node_id": "raw_node_0002_pre",
+      "representative_image_path": "node_images/raw_node_0002_pre.jpg",
+      "representative_frame_id": 120,
+      "representative_role": "pre_state",
+      "members": [
+        "raw_node_0002_pre"
+      ],
+      "equivalence_checks": [
+        {
+          "candidate_raw_node_id": "raw_node_0002_post",
+          "same_state": false,
+          "confidence": 0.8,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.8,
+            "reason": "The tool positions and the material pile shapes differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.8,\n  \"reason\": \"The tool positions and the material pile shapes differ significantly between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0003_pre",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool positions and the material pile shapes differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool positions and the material pile shapes differ significantly between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0003_post",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool positions and the material pile shapes differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool positions and the material pile shapes differ significantly between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0004_pre",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool positions and the presence of material in the tool differ between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool positions and the presence of material in the tool differ between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0004_post",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool in Image A is positioned over the material pile, indicating it is about to scoop, while in Image B, the tool is placed on the ground, suggesting it has been released."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool in Image A is positioned over the material pile, indicating it is about to scoop, while in Image B, the tool is placed on the ground, suggesting it has been released.\"\n}\n```"
+        }
+      ]
+    },
+    {
+      "abstract_node_id": "state_0005",
+      "representative_raw_node_id": "raw_node_0002_post",
+      "representative_image_path": "node_images/raw_node_0002_post.jpg",
+      "representative_frame_id": 179,
+      "representative_role": "post_state",
+      "members": [
+        "raw_node_0002_post"
+      ],
+      "equivalence_checks": [
+        {
+          "candidate_raw_node_id": "raw_node_0003_pre",
+          "same_state": false,
+          "confidence": 0.8,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.8,
+            "reason": "The tool positions and the material pile shapes differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.8,\n  \"reason\": \"The tool positions and the material pile shapes differ significantly between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0003_post",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool positions and the material pile shapes differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool positions and the material pile shapes differ significantly between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0004_pre",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool in Image A is positioned over the material pile, indicating it is ready to scoop, while in Image B, the tool is not in contact with the material pile, suggesting it has been released."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool in Image A is positioned over the material pile, indicating it is ready to scoop, while in Image B, the tool is not in contact with the material pile, suggesting it has been released.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0004_post",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool in Image A is positioned over the material pile, indicating it is ready to scoop, while in Image B, the tool is not in contact with the material pile, suggesting it has been released."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool in Image A is positioned over the material pile, indicating it is ready to scoop, while in Image B, the tool is not in contact with the material pile, suggesting it has been released.\"\n}\n```"
+        }
+      ]
+    },
+    {
+      "abstract_node_id": "state_0006",
+      "representative_raw_node_id": "raw_node_0003_pre",
+      "representative_image_path": "node_images/raw_node_0003_pre.jpg",
+      "representative_frame_id": 180,
+      "representative_role": "pre_state",
+      "members": [
+        "raw_node_0003_pre"
+      ],
+      "equivalence_checks": [
+        {
+          "candidate_raw_node_id": "raw_node_0003_post",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool in Image A is positioned over the material pile, indicating it is ready to scoop, while in Image B, the tool is not in contact with the material pile, suggesting it has been moved away."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool in Image A is positioned over the material pile, indicating it is ready to scoop, while in Image B, the tool is not in contact with the material pile, suggesting it has been moved away.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0004_pre",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool positions and the material pile shapes differ significantly between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool positions and the material pile shapes differ significantly between the two images.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0004_post",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool in Image A is positioned over the material pile, indicating it is ready to scoop, while in Image B, the tool is not in contact with the material pile, suggesting it has been released."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool in Image A is positioned over the material pile, indicating it is ready to scoop, while in Image B, the tool is not in contact with the material pile, suggesting it has been released.\"\n}\n```"
+        }
+      ]
+    },
+    {
+      "abstract_node_id": "state_0007",
+      "representative_raw_node_id": "raw_node_0003_post",
+      "representative_image_path": "node_images/raw_node_0003_post.jpg",
+      "representative_frame_id": 259,
+      "representative_role": "post_state",
+      "members": [
+        "raw_node_0003_post"
+      ],
+      "equivalence_checks": [
+        {
+          "candidate_raw_node_id": "raw_node_0004_pre",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool in Image A is positioned over the material pile, while in Image B, the tool is not in contact with the material pile."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool in Image A is positioned over the material pile, while in Image B, the tool is not in contact with the material pile.\"\n}\n```"
+        },
+        {
+          "candidate_raw_node_id": "raw_node_0004_post",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool in Image A is positioned over the material pile, indicating it is ready to scoop, while in Image B, the tool is not in contact with the material pile, suggesting it has been released."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool in Image A is positioned over the material pile, indicating it is ready to scoop, while in Image B, the tool is not in contact with the material pile, suggesting it has been released.\"\n}\n```"
+        }
+      ]
+    },
+    {
+      "abstract_node_id": "state_0008",
+      "representative_raw_node_id": "raw_node_0004_pre",
+      "representative_image_path": "node_images/raw_node_0004_pre.jpg",
+      "representative_frame_id": 260,
+      "representative_role": "pre_state",
+      "members": [
+        "raw_node_0004_pre"
+      ],
+      "equivalence_checks": [
+        {
+          "candidate_raw_node_id": "raw_node_0004_post",
+          "same_state": false,
+          "confidence": 0.9,
+          "parsed_vlm_output": {
+            "same_state": false,
+            "confidence": 0.9,
+            "reason": "The tool positions and the presence of material in the tool differ between the two images."
+          },
+          "raw_vlm_output": "```json\n{\n  \"same_state\": false,\n  \"confidence\": 0.9,\n  \"reason\": \"The tool positions and the presence of material in the tool differ between the two images.\"\n}\n```"
+        }
+      ]
+    },
+    {
+      "abstract_node_id": "state_0009",
+      "representative_raw_node_id": "raw_node_0004_post",
+      "representative_image_path": "node_images/raw_node_0004_post.jpg",
+      "representative_frame_id": 339,
+      "representative_role": "post_state",
+      "members": [
+        "raw_node_0004_post"
+      ],
+      "equivalence_checks": []
+    }
+  ],
+  "edges": [
+    {
+      "trajectory_id": "tau_0000",
+      "source": "state_0000",
+      "target": "state_0001",
+      "raw_source": "raw_node_0000_pre",
+      "raw_target": "raw_node_0000_post",
+      "source_was_merged": false,
+      "target_was_merged": false,
+      "expected_skill_label": "approach",
+      "skill_label": "approach",
+      "confidence": 0.9,
+      "raw_vlm_output": "```json\n{\n  \"trajectory_id\": \"tau_0000\",\n  \"skill_label\": \"approach\",\n  \"confidence\": 0.9,\n  \"reason\": \"The tool is moving towards the material pile without interacting with it yet.\"\n}\n```",
+      "parsed_vlm_output": {
+        "trajectory_id": "tau_0000",
+        "skill_label": "approach",
+        "confidence": 0.9,
+        "reason": "The tool is moving towards the material pile without interacting with it yet."
+      },
+      "reason_inferred_predicates": [
+        "tool_near_pile"
+      ]
+    },
+    {
+      "trajectory_id": "tau_0001",
+      "source": "state_0001",
+      "target": "state_0003",
+      "raw_source": "raw_node_0001_pre",
+      "raw_target": "raw_node_0001_post",
+      "source_was_merged": false,
+      "target_was_merged": false,
+      "expected_skill_label": "scoop",
+      "skill_label": "scoop",
+      "confidence": 0.9,
+      "raw_vlm_output": "```json\n{\n  \"trajectory_id\": \"tau_0001\",\n  \"skill_label\": \"scoop\",\n  \"confidence\": 0.9,\n  \"reason\": \"The tool enters the material pile and collects material, indicating a scoop action.\"\n}\n```",
+      "parsed_vlm_output": {
+        "trajectory_id": "tau_0001",
+        "skill_label": "scoop",
+        "confidence": 0.9,
+        "reason": "The tool enters the material pile and collects material, indicating a scoop action."
+      },
+      "reason_inferred_predicates": [
+        "tool_contains_material",
+        "tool_in_pile"
+      ]
+    },
+    {
+      "trajectory_id": "tau_0002",
+      "source": "state_0003",
+      "target": "state_0005",
+      "raw_source": "raw_node_0002_pre",
+      "raw_target": "raw_node_0002_post",
+      "source_was_merged": false,
+      "target_was_merged": false,
+      "expected_skill_label": "lift",
+      "skill_label": "lift",
+      "confidence": 0.9,
+      "raw_vlm_output": "```json\n{\n  \"trajectory_id\": \"tau_0002\",\n  \"skill_label\": \"lift\",\n  \"confidence\": 0.9,\n  \"reason\": \"The tool is moving upward away from the material pile, indicating a lift action.\"\n}\n```",
+      "parsed_vlm_output": {
+        "trajectory_id": "tau_0002",
+        "skill_label": "lift",
+        "confidence": 0.9,
+        "reason": "The tool is moving upward away from the material pile, indicating a lift action."
+      },
+      "reason_inferred_predicates": [
+        "tool_lifted"
+      ]
+    },
+    {
+      "trajectory_id": "tau_0003",
+      "source": "state_0005",
+      "target": "state_0007",
+      "raw_source": "raw_node_0003_pre",
+      "raw_target": "raw_node_0003_post",
+      "source_was_merged": false,
+      "target_was_merged": false,
+      "expected_skill_label": "transport",
+      "skill_label": "scoop",
+      "confidence": 0.9,
+      "raw_vlm_output": "```json\n{\n  \"trajectory_id\": \"tau_0003\",\n  \"skill_label\": \"scoop\",\n  \"confidence\": 0.9,\n  \"reason\": \"The tool is positioned above the material pile and is moving downward, indicating it is about to scoop up some material.\"\n}\n```",
+      "parsed_vlm_output": {
+        "trajectory_id": "tau_0003",
+        "skill_label": "scoop",
+        "confidence": 0.9,
+        "reason": "The tool is positioned above the material pile and is moving downward, indicating it is about to scoop up some material."
+      },
+      "reason_inferred_predicates": []
+    },
+    {
+      "trajectory_id": "tau_0004",
+      "source": "state_0007",
+      "target": "state_0009",
+      "raw_source": "raw_node_0004_pre",
+      "raw_target": "raw_node_0004_post",
+      "source_was_merged": false,
+      "target_was_merged": false,
+      "expected_skill_label": "dump",
+      "skill_label": "scoop",
+      "confidence": 0.9,
+      "raw_vlm_output": "```json\n{\n  \"trajectory_id\": \"tau_0004\",\n  \"skill_label\": \"scoop\",\n  \"confidence\": 0.9,\n  \"reason\": \"The tool enters the material pile and collects material, indicating a scoop action.\"\n}\n```",
+      "parsed_vlm_output": {
+        "trajectory_id": "tau_0004",
+        "skill_label": "scoop",
+        "confidence": 0.9,
+        "reason": "The tool enters the material pile and collects material, indicating a scoop action."
+      },
+      "reason_inferred_predicates": [
+        "tool_contains_material",
+        "tool_in_pile"
+      ]
+    }
+  ],
+  "skill_vocabulary": [
+    "approach",
+    "scoop",
+    "lift",
+    "transport",
+    "dump",
+    "none"
+  ],
+  "state_hints": "\nA high-level scooping state is defined by:\n- the tool/spoon/scoop position relative to the material pile\n- whether the tool contains material\n- the shape, height, and disturbance of the material pile\n- whether material has been deposited elsewhere\n\nIgnore:\n- lighting changes\n- small particle-level differences\n- camera noise\n- tiny pose differences that do not change the task-level state\n",
+  "state_equivalence_confidence_threshold": 0.7,
+  "state_predicates": {
+    "state_0000": [
+      "tool_away"
+    ],
+    "state_0001": [
+      "tool_near_pile"
+    ],
+    "state_0002": [],
+    "state_0003": [
+      "tool_contains_material",
+      "tool_in_pile"
+    ],
+    "state_0004": [],
+    "state_0005": [
+      "tool_lifted"
+    ],
+    "state_0006": [],
+    "state_0007": [
+      "tool_at_dump"
+    ],
+    "state_0008": [],
+    "state_0009": [
+      "material_deposited",
+      "tool_contains_material",
+      "tool_in_pile"
+    ]
+  }
+}

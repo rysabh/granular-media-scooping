@@ -1,0 +1,5 @@
+(define (problem scooping-task)
+  (:domain scooping)
+  (:init (state_0000))
+  (:goal (state_0009))
+)

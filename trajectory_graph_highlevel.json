@@ -1,0 +1,654 @@
+{
+  "raw_nodes": [
+    {
+      "raw_node_id": "raw_node_0000_pre",
+      "trajectory_id": "tau_0000",
+      "role": "pre_state",
+      "frame_id": 0,
+      "image_path": "node_images/raw_node_0000_pre.jpg",
+      "state_summary": "The spoon is being used to scoop brown sugar from a container into a bucket.",
+      "predicates": [
+        "spoon_sufficiently_filled",
+        "source_pile_reduced",
+        "material_in_bucket",
+        "tool_near_source",
+        "tool_near_target"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0000_pre\",\n  \"state_summary\": \"The spoon is being used to scoop brown sugar from a container into a bucket.\",\n  \"predicates\": [\"spoon_sufficiently_filled\", \"source_pile_reduced\", \"material_in_bucket\", \"tool_near_source\", \"tool_near_target\"],\n  \"confidence\": 0.9\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0000_pre",
+          "state_summary": "The spoon is being used to scoop brown sugar from a container into a bucket.",
+          "predicates": [
+            "spoon_sufficiently_filled",
+            "source_pile_reduced",
+            "material_in_bucket",
+            "tool_near_source",
+            "tool_near_target"
+          ],
+          "confidence": 0.9
+        },
+        "state_summary": "The spoon is being used to scoop brown sugar from a container into a bucket.",
+        "predicates": [
+          "spoon_sufficiently_filled",
+          "source_pile_reduced",
+          "material_in_bucket",
+          "tool_near_source",
+          "tool_near_target"
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "raw_node_id": "raw_node_0000_post",
+      "trajectory_id": "tau_0000",
+      "role": "post_state",
+      "frame_id": 35,
+      "image_path": "node_images/raw_node_0000_post.jpg",
+      "state_summary": "The spoon is being used to scoop brown sugar from a pile into a bucket.",
+      "predicates": [
+        "spoon_sufficiently_filled",
+        "source_pile_reduced",
+        "material_in_bucket",
+        "tool_near_source"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0000_post\",\n  \"state_summary\": \"The spoon is being used to scoop brown sugar from a pile into a bucket.\",\n  \"predicates\": [\"spoon_sufficiently_filled\", \"source_pile_reduced\", \"material_in_bucket\", \"tool_near_source\"],\n  \"confidence\": 0.9\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0000_post",
+          "state_summary": "The spoon is being used to scoop brown sugar from a pile into a bucket.",
+          "predicates": [
+            "spoon_sufficiently_filled",
+            "source_pile_reduced",
+            "material_in_bucket",
+            "tool_near_source"
+          ],
+          "confidence": 0.9
+        },
+        "state_summary": "The spoon is being used to scoop brown sugar from a pile into a bucket.",
+        "predicates": [
+          "spoon_sufficiently_filled",
+          "source_pile_reduced",
+          "material_in_bucket",
+          "tool_near_source"
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "raw_node_id": "raw_node_0001_pre",
+      "trajectory_id": "tau_0001",
+      "role": "pre_state",
+      "frame_id": 36,
+      "image_path": "node_images/raw_node_0001_pre.jpg",
+      "state_summary": "A person is scooping brown sugar from a pile into a bucket.",
+      "predicates": [
+        "spoon_sufficiently_filled",
+        "source_pile_reduced",
+        "material_in_bucket",
+        "tool_near_source"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0001_pre\",\n  \"state_summary\": \"A person is scooping brown sugar from a pile into a bucket.\",\n  \"predicates\": [\"spoon_sufficiently_filled\", \"source_pile_reduced\", \"material_in_bucket\", \"tool_near_source\"],\n  \"confidence\": 0.9\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0001_pre",
+          "state_summary": "A person is scooping brown sugar from a pile into a bucket.",
+          "predicates": [
+            "spoon_sufficiently_filled",
+            "source_pile_reduced",
+            "material_in_bucket",
+            "tool_near_source"
+          ],
+          "confidence": 0.9
+        },
+        "state_summary": "A person is scooping brown sugar from a pile into a bucket.",
+        "predicates": [
+          "spoon_sufficiently_filled",
+          "source_pile_reduced",
+          "material_in_bucket",
+          "tool_near_source"
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "raw_node_id": "raw_node_0001_post",
+      "trajectory_id": "tau_0001",
+      "role": "post_state",
+      "frame_id": 71,
+      "image_path": "node_images/raw_node_0001_post.jpg",
+      "state_summary": "The spoon is being used to scoop brown sugar from a container into a bucket.",
+      "predicates": [
+        "spoon_sufficiently_filled",
+        "source_pile_reduced",
+        "material_in_bucket",
+        "tool_near_source",
+        "tool_near_target"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0001_post\",\n  \"state_summary\": \"The spoon is being used to scoop brown sugar from a container into a bucket.\",\n  \"predicates\": [\"spoon_sufficiently_filled\", \"source_pile_reduced\", \"material_in_bucket\", \"tool_near_source\", \"tool_near_target\"],\n  \"confidence\": 0.9\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0001_post",
+          "state_summary": "The spoon is being used to scoop brown sugar from a container into a bucket.",
+          "predicates": [
+            "spoon_sufficiently_filled",
+            "source_pile_reduced",
+            "material_in_bucket",
+            "tool_near_source",
+            "tool_near_target"
+          ],
+          "confidence": 0.9
+        },
+        "state_summary": "The spoon is being used to scoop brown sugar from a container into a bucket.",
+        "predicates": [
+          "spoon_sufficiently_filled",
+          "source_pile_reduced",
+          "material_in_bucket",
+          "tool_near_source",
+          "tool_near_target"
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "raw_node_id": "raw_node_0002_pre",
+      "trajectory_id": "tau_0002",
+      "role": "pre_state",
+      "frame_id": 72,
+      "image_path": "node_images/raw_node_0002_pre.jpg",
+      "state_summary": "The spoon is being used to scoop brown sugar from a container into a bucket.",
+      "predicates": [
+        "spoon_sufficiently_filled",
+        "source_pile_reduced",
+        "material_in_bucket",
+        "tool_near_source",
+        "tool_near_target"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0002_pre\",\n  \"state_summary\": \"The spoon is being used to scoop brown sugar from a container into a bucket.\",\n  \"predicates\": [\"spoon_sufficiently_filled\", \"source_pile_reduced\", \"material_in_bucket\", \"tool_near_source\", \"tool_near_target\"],\n  \"confidence\": 0.9\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0002_pre",
+          "state_summary": "The spoon is being used to scoop brown sugar from a container into a bucket.",
+          "predicates": [
+            "spoon_sufficiently_filled",
+            "source_pile_reduced",
+            "material_in_bucket",
+            "tool_near_source",
+            "tool_near_target"
+          ],
+          "confidence": 0.9
+        },
+        "state_summary": "The spoon is being used to scoop brown sugar from a container into a bucket.",
+        "predicates": [
+          "spoon_sufficiently_filled",
+          "source_pile_reduced",
+          "material_in_bucket",
+          "tool_near_source",
+          "tool_near_target"
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "raw_node_id": "raw_node_0002_post",
+      "trajectory_id": "tau_0002",
+      "role": "post_state",
+      "frame_id": 129,
+      "image_path": "node_images/raw_node_0002_post.jpg",
+      "state_summary": "The spoon is being used to scoop brown sugar from a pile into a bucket.",
+      "predicates": [
+        "spoon_sufficiently_filled",
+        "source_pile_reduced",
+        "material_in_bucket",
+        "tool_near_source",
+        "tool_near_target"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0002_post\",\n  \"state_summary\": \"The spoon is being used to scoop brown sugar from a pile into a bucket.\",\n  \"predicates\": [\"spoon_sufficiently_filled\", \"source_pile_reduced\", \"material_in_bucket\", \"tool_near_source\", \"tool_near_target\"],\n  \"confidence\": 0.9\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0002_post",
+          "state_summary": "The spoon is being used to scoop brown sugar from a pile into a bucket.",
+          "predicates": [
+            "spoon_sufficiently_filled",
+            "source_pile_reduced",
+            "material_in_bucket",
+            "tool_near_source",
+            "tool_near_target"
+          ],
+          "confidence": 0.9
+        },
+        "state_summary": "The spoon is being used to scoop brown sugar from a pile into a bucket.",
+        "predicates": [
+          "spoon_sufficiently_filled",
+          "source_pile_reduced",
+          "material_in_bucket",
+          "tool_near_source",
+          "tool_near_target"
+        ],
+        "confidence": 0.9
+      }
+    }
+  ],
+  "abstract_nodes": [
+    {
+      "abstract_node_id": "state_0000",
+      "representative_raw_node_id": "raw_node_0000_pre",
+      "representative_image_path": "node_images/raw_node_0000_pre.jpg",
+      "representative_frame_id": 0,
+      "representative_role": "pre_state",
+      "state_summary": "The spoon is being used to scoop brown sugar from a container into a bucket.",
+      "predicates": [
+        "spoon_sufficiently_filled",
+        "source_pile_reduced",
+        "material_in_bucket",
+        "tool_near_source",
+        "tool_near_target"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0000_pre\",\n  \"state_summary\": \"The spoon is being used to scoop brown sugar from a container into a bucket.\",\n  \"predicates\": [\"spoon_sufficiently_filled\", \"source_pile_reduced\", \"material_in_bucket\", \"tool_near_source\", \"tool_near_target\"],\n  \"confidence\": 0.9\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0000_pre",
+          "state_summary": "The spoon is being used to scoop brown sugar from a container into a bucket.",
+          "predicates": [
+            "spoon_sufficiently_filled",
+            "source_pile_reduced",
+            "material_in_bucket",
+            "tool_near_source",
+            "tool_near_target"
+          ],
+          "confidence": 0.9
+        },
+        "state_summary": "The spoon is being used to scoop brown sugar from a container into a bucket.",
+        "predicates": [
+          "spoon_sufficiently_filled",
+          "source_pile_reduced",
+          "material_in_bucket",
+          "tool_near_source",
+          "tool_near_target"
+        ],
+        "confidence": 0.9
+      },
+      "members": [
+        "raw_node_0000_pre"
+      ],
+      "equivalence_checks": []
+    },
+    {
+      "abstract_node_id": "state_0001",
+      "representative_raw_node_id": "raw_node_0000_post",
+      "representative_image_path": "node_images/raw_node_0000_post.jpg",
+      "representative_frame_id": 35,
+      "representative_role": "post_state",
+      "state_summary": "The spoon is being used to scoop brown sugar from a pile into a bucket.",
+      "predicates": [
+        "spoon_sufficiently_filled",
+        "source_pile_reduced",
+        "material_in_bucket",
+        "tool_near_source"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0000_post\",\n  \"state_summary\": \"The spoon is being used to scoop brown sugar from a pile into a bucket.\",\n  \"predicates\": [\"spoon_sufficiently_filled\", \"source_pile_reduced\", \"material_in_bucket\", \"tool_near_source\"],\n  \"confidence\": 0.9\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0000_post",
+          "state_summary": "The spoon is being used to scoop brown sugar from a pile into a bucket.",
+          "predicates": [
+            "spoon_sufficiently_filled",
+            "source_pile_reduced",
+            "material_in_bucket",
+            "tool_near_source"
+          ],
+          "confidence": 0.9
+        },
+        "state_summary": "The spoon is being used to scoop brown sugar from a pile into a bucket.",
+        "predicates": [
+          "spoon_sufficiently_filled",
+          "source_pile_reduced",
+          "material_in_bucket",
+          "tool_near_source"
+        ],
+        "confidence": 0.9
+      },
+      "members": [
+        "raw_node_0000_post"
+      ],
+      "equivalence_checks": []
+    },
+    {
+      "abstract_node_id": "state_0002",
+      "representative_raw_node_id": "raw_node_0001_pre",
+      "representative_image_path": "node_images/raw_node_0001_pre.jpg",
+      "representative_frame_id": 36,
+      "representative_role": "pre_state",
+      "state_summary": "A person is scooping brown sugar from a pile into a bucket.",
+      "predicates": [
+        "spoon_sufficiently_filled",
+        "source_pile_reduced",
+        "material_in_bucket",
+        "tool_near_source"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0001_pre\",\n  \"state_summary\": \"A person is scooping brown sugar from a pile into a bucket.\",\n  \"predicates\": [\"spoon_sufficiently_filled\", \"source_pile_reduced\", \"material_in_bucket\", \"tool_near_source\"],\n  \"confidence\": 0.9\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0001_pre",
+          "state_summary": "A person is scooping brown sugar from a pile into a bucket.",
+          "predicates": [
+            "spoon_sufficiently_filled",
+            "source_pile_reduced",
+            "material_in_bucket",
+            "tool_near_source"
+          ],
+          "confidence": 0.9
+        },
+        "state_summary": "A person is scooping brown sugar from a pile into a bucket.",
+        "predicates": [
+          "spoon_sufficiently_filled",
+          "source_pile_reduced",
+          "material_in_bucket",
+          "tool_near_source"
+        ],
+        "confidence": 0.9
+      },
+      "members": [
+        "raw_node_0001_pre"
+      ],
+      "equivalence_checks": []
+    },
+    {
+      "abstract_node_id": "state_0003",
+      "representative_raw_node_id": "raw_node_0001_post",
+      "representative_image_path": "node_images/raw_node_0001_post.jpg",
+      "representative_frame_id": 71,
+      "representative_role": "post_state",
+      "state_summary": "The spoon is being used to scoop brown sugar from a container into a bucket.",
+      "predicates": [
+        "spoon_sufficiently_filled",
+        "source_pile_reduced",
+        "material_in_bucket",
+        "tool_near_source",
+        "tool_near_target"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0001_post\",\n  \"state_summary\": \"The spoon is being used to scoop brown sugar from a container into a bucket.\",\n  \"predicates\": [\"spoon_sufficiently_filled\", \"source_pile_reduced\", \"material_in_bucket\", \"tool_near_source\", \"tool_near_target\"],\n  \"confidence\": 0.9\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0001_post",
+          "state_summary": "The spoon is being used to scoop brown sugar from a container into a bucket.",
+          "predicates": [
+            "spoon_sufficiently_filled",
+            "source_pile_reduced",
+            "material_in_bucket",
+            "tool_near_source",
+            "tool_near_target"
+          ],
+          "confidence": 0.9
+        },
+        "state_summary": "The spoon is being used to scoop brown sugar from a container into a bucket.",
+        "predicates": [
+          "spoon_sufficiently_filled",
+          "source_pile_reduced",
+          "material_in_bucket",
+          "tool_near_source",
+          "tool_near_target"
+        ],
+        "confidence": 0.9
+      },
+      "members": [
+        "raw_node_0001_post"
+      ],
+      "equivalence_checks": []
+    },
+    {
+      "abstract_node_id": "state_0004",
+      "representative_raw_node_id": "raw_node_0002_pre",
+      "representative_image_path": "node_images/raw_node_0002_pre.jpg",
+      "representative_frame_id": 72,
+      "representative_role": "pre_state",
+      "state_summary": "The spoon is being used to scoop brown sugar from a container into a bucket.",
+      "predicates": [
+        "spoon_sufficiently_filled",
+        "source_pile_reduced",
+        "material_in_bucket",
+        "tool_near_source",
+        "tool_near_target"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0002_pre\",\n  \"state_summary\": \"The spoon is being used to scoop brown sugar from a container into a bucket.\",\n  \"predicates\": [\"spoon_sufficiently_filled\", \"source_pile_reduced\", \"material_in_bucket\", \"tool_near_source\", \"tool_near_target\"],\n  \"confidence\": 0.9\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0002_pre",
+          "state_summary": "The spoon is being used to scoop brown sugar from a container into a bucket.",
+          "predicates": [
+            "spoon_sufficiently_filled",
+            "source_pile_reduced",
+            "material_in_bucket",
+            "tool_near_source",
+            "tool_near_target"
+          ],
+          "confidence": 0.9
+        },
+        "state_summary": "The spoon is being used to scoop brown sugar from a container into a bucket.",
+        "predicates": [
+          "spoon_sufficiently_filled",
+          "source_pile_reduced",
+          "material_in_bucket",
+          "tool_near_source",
+          "tool_near_target"
+        ],
+        "confidence": 0.9
+      },
+      "members": [
+        "raw_node_0002_pre"
+      ],
+      "equivalence_checks": []
+    },
+    {
+      "abstract_node_id": "state_0005",
+      "representative_raw_node_id": "raw_node_0002_post",
+      "representative_image_path": "node_images/raw_node_0002_post.jpg",
+      "representative_frame_id": 129,
+      "representative_role": "post_state",
+      "state_summary": "The spoon is being used to scoop brown sugar from a pile into a bucket.",
+      "predicates": [
+        "spoon_sufficiently_filled",
+        "source_pile_reduced",
+        "material_in_bucket",
+        "tool_near_source",
+        "tool_near_target"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0002_post\",\n  \"state_summary\": \"The spoon is being used to scoop brown sugar from a pile into a bucket.\",\n  \"predicates\": [\"spoon_sufficiently_filled\", \"source_pile_reduced\", \"material_in_bucket\", \"tool_near_source\", \"tool_near_target\"],\n  \"confidence\": 0.9\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0002_post",
+          "state_summary": "The spoon is being used to scoop brown sugar from a pile into a bucket.",
+          "predicates": [
+            "spoon_sufficiently_filled",
+            "source_pile_reduced",
+            "material_in_bucket",
+            "tool_near_source",
+            "tool_near_target"
+          ],
+          "confidence": 0.9
+        },
+        "state_summary": "The spoon is being used to scoop brown sugar from a pile into a bucket.",
+        "predicates": [
+          "spoon_sufficiently_filled",
+          "source_pile_reduced",
+          "material_in_bucket",
+          "tool_near_source",
+          "tool_near_target"
+        ],
+        "confidence": 0.9
+      },
+      "members": [
+        "raw_node_0002_post"
+      ],
+      "equivalence_checks": []
+    }
+  ],
+  "edges": [
+    {
+      "trajectory_id": "tau_0000",
+      "segment_start_frame": 0,
+      "segment_end_frame": 36,
+      "source": "state_0000",
+      "target": "state_0001",
+      "raw_source": "raw_node_0000_pre",
+      "raw_target": "raw_node_0000_post",
+      "source_was_merged": false,
+      "target_was_merged": false,
+      "expected_skill_label": null,
+      "skill_label": "scoop",
+      "label_source": "vlm_semantic_reasoning_after_embedding_segmentation",
+      "confidence": 0.9,
+      "state_change_summary": "The spoon is being used to scoop sugar from the container into the bucket.",
+      "reason": "The spoon is positioned over the sugar pile, indicating that it is actively collecting sugar. The bucket is nearby, suggesting that the sugar will be transferred there.",
+      "raw_vlm_output": "```json\n{\n  \"trajectory_id\": \"tau_0000\",\n  \"skill_label\": \"scoop\",\n  \"confidence\": 0.9,\n  \"state_change_summary\": \"The spoon is being used to scoop sugar from the container into the bucket.\",\n  \"reason\": \"The spoon is positioned over the sugar pile, indicating that it is actively collecting sugar. The bucket is nearby, suggesting that the sugar will be transferred there.\"\n}\n```",
+      "parsed_vlm_output": {
+        "trajectory_id": "tau_0000",
+        "skill_label": "scoop",
+        "confidence": 0.9,
+        "state_change_summary": "The spoon is being used to scoop sugar from the container into the bucket.",
+        "reason": "The spoon is positioned over the sugar pile, indicating that it is actively collecting sugar. The bucket is nearby, suggesting that the sugar will be transferred there."
+      }
+    },
+    {
+      "trajectory_id": "tau_0001",
+      "segment_start_frame": 36,
+      "segment_end_frame": 72,
+      "source": "state_0001",
+      "target": "state_0003",
+      "raw_source": "raw_node_0001_pre",
+      "raw_target": "raw_node_0001_post",
+      "source_was_merged": false,
+      "target_was_merged": false,
+      "expected_skill_label": null,
+      "skill_label": "scoop",
+      "label_source": "vlm_semantic_reasoning_after_embedding_segmentation",
+      "confidence": 0.9,
+      "state_change_summary": "The spoon is actively collecting sugar from the pile and transferring it to the bucket.",
+      "reason": "The spoon is being used to scoop sugar from the pile and place it into the bucket, indicating the completion of the scooping action.",
+      "raw_vlm_output": "```json\n{\n  \"trajectory_id\": \"tau_0001\",\n  \"skill_label\": \"scoop\",\n  \"confidence\": 0.9,\n  \"state_change_summary\": \"The spoon is actively collecting sugar from the pile and transferring it to the bucket.\",\n  \"reason\": \"The spoon is being used to scoop sugar from the pile and place it into the bucket, indicating the completion of the scooping action.\"\n}\n```",
+      "parsed_vlm_output": {
+        "trajectory_id": "tau_0001",
+        "skill_label": "scoop",
+        "confidence": 0.9,
+        "state_change_summary": "The spoon is actively collecting sugar from the pile and transferring it to the bucket.",
+        "reason": "The spoon is being used to scoop sugar from the pile and place it into the bucket, indicating the completion of the scooping action."
+      }
+    },
+    {
+      "trajectory_id": "tau_0002",
+      "segment_start_frame": 72,
+      "segment_end_frame": 130,
+      "source": "state_0003",
+      "target": "state_0005",
+      "raw_source": "raw_node_0002_pre",
+      "raw_target": "raw_node_0002_post",
+      "source_was_merged": false,
+      "target_was_merged": false,
+      "expected_skill_label": null,
+      "skill_label": "scoop",
+      "label_source": "vlm_semantic_reasoning_after_embedding_segmentation",
+      "confidence": 0.9,
+      "state_change_summary": "The spoon is actively collecting sugar from the source pile and transferring it to the bucket.",
+      "reason": "The spoon is being used to scoop sugar from the pile and place it into the bucket, indicating the completion of the scooping action.",
+      "raw_vlm_output": "```json\n{\n  \"trajectory_id\": \"tau_0002\",\n  \"skill_label\": \"scoop\",\n  \"confidence\": 0.9,\n  \"state_change_summary\": \"The spoon is actively collecting sugar from the source pile and transferring it to the bucket.\",\n  \"reason\": \"The spoon is being used to scoop sugar from the pile and place it into the bucket, indicating the completion of the scooping action.\"\n}\n```",
+      "parsed_vlm_output": {
+        "trajectory_id": "tau_0002",
+        "skill_label": "scoop",
+        "confidence": 0.9,
+        "state_change_summary": "The spoon is actively collecting sugar from the source pile and transferring it to the bucket.",
+        "reason": "The spoon is being used to scoop sugar from the pile and place it into the bucket, indicating the completion of the scooping action."
+      }
+    }
+  ],
+  "pipeline": [
+    "OWLv2 open-vocabulary object localization",
+    "object/task-centric crop extraction",
+    "DINOv2 crop embedding extraction",
+    "multi-object embedding aggregation",
+    "ruptures temporal segmentation on joint embedding signal",
+    "VLM semantic state/skill reasoning",
+    "symbolic state-skill graph construction"
+  ],
+  "skill_vocabulary": [
+    "approach",
+    "scoop_more",
+    "scoop",
+    "lift",
+    "transport",
+    "dump",
+    "recover_spill",
+    "return",
+    "none"
+  ],
+  "state_hints": "\nA high-level state should be inferred from the coordinated visual changes across\nmultiple task-relevant entities, not from a single isolated crop.\n\nRelevant entities:\n- spoon / scoop tool\n- brown sugar pile and source container\n- bucket / target container\n- workspace region where spilled sugar may appear\n\nReason about these semantic questions:\n- Is the spoon empty, insufficiently filled, sufficiently filled, or overfilled/spilling?\n- Has the source sugar pile changed, been disturbed, or been reduced?\n- Has sugar appeared in the bucket/target container?\n- Has sugar appeared outside the intended containers, indicating spill?\n- What high-level skill is occurring or just completed?\n\nAvoid hard-coded numeric thresholds. Use human-like visual reasoning over the\nbefore/after observations and the short segment context.\n",
+  "segmentation_method": "owlv2_crops_dinov2_embeddings_aggregate_ruptures",
+  "object_detector": {
+    "model_id": "google/owlv2-base-patch16-ensemble",
+    "object_prompts": {
+      "spoon": [
+        "spoon",
+        "metal spoon",
+        "scoop spoon",
+        "spoon containing brown sugar",
+        "empty spoon"
+      ],
+      "sugar_pile": [
+        "brown sugar pile",
+        "sugar pile",
+        "brown sugar",
+        "granular material",
+        "disturbed sugar pile"
+      ],
+      "source_container": [
+        "container with brown sugar",
+        "bowl with brown sugar",
+        "sugar container",
+        "source container"
+      ],
+      "bucket": [
+        "bucket",
+        "dump bucket",
+        "target bucket",
+        "container bucket"
+      ],
+      "spilled_sugar": [
+        "spilled brown sugar",
+        "brown sugar outside the container",
+        "spilled granular material"
+      ]
+    },
+    "score_threshold": 0.12,
+    "detection_stride": 3
+  },
+  "embedding_model": {
+    "model_id": "facebook/dinov2-base",
+    "object_streams": [
+      "spoon",
+      "sugar_pile",
+      "source_container",
+      "bucket",
+      "spilled_sugar",
+      "workspace"
+    ],
+    "aggregation": "concatenate object crop embeddings per sampled frame",
+    "uses_delta_embeddings_for_ruptures": true,
+    "pca_dims": 64
+  },
+  "change_point_detector": {
+    "library": "ruptures",
+    "algorithm": "pelt",
+    "model": "rbf",
+    "penalty": 8.0,
+    "input_features": "joint DINOv2 embeddings from OWLv2 object crops, optionally PCA-reduced and concatenated with embedding deltas",
+    "min_segment_frames": 12,
+    "target_segment_frames": 36,
+    "max_segment_frames": 90
+  },
+  "vlm_reasoning": {
+    "model_id": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "role": "infer semantic states and skill labels from segmented before/during/after visual context",
+    "no_handcrafted_state_rules": true
+  },
+  "state_equivalence_confidence_threshold": 0.95,
+  "disable_state_merging_for_debug": true
+}

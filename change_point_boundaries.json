@@ -1,0 +1,49 @@
+{
+  "pipeline": "OWLv2 detection -> object-centric crops + interaction-centric pair crops + global frame -> DINOv2 embeddings -> aggregate -> PELT(model='rbf')",
+  "algorithm": "ruptures.Pelt(model='rbf', pen=4)",
+  "rbf_interpretation": "RBF measures nonlinear similarity changes in the joint DINO embedding signal.",
+  "embedding_streams": [
+    "spoon",
+    "sugar_pile",
+    "spoon_source_interaction",
+    "spoon_target_interaction",
+    "global_frame"
+  ],
+  "detection_stride": 1,
+  "owl_score_threshold": 0.12,
+  "dino_model_id": "facebook/dinov2-base",
+  "signal_info": {
+    "raw_embedding_dim": 3840,
+    "signal_dim": 7680,
+    "pca": {
+      "used": false,
+      "reason": "sklearn unavailable, PCA disabled, or dimensions already small"
+    },
+    "uses_delta_embeddings": true,
+    "smoothing_window": 3,
+    "interpretation": "learned object-centric + interaction-centric + global-scene DINO embedding signal; PELT+RBF detects distribution/similarity shifts"
+  },
+  "min_size_detection_steps": 1,
+  "min_size_interpretation": "minimal numerical constraint only; no manual segment duration is imposed",
+  "boundary_frames": [
+    17,
+    58,
+    88,
+    99
+  ],
+  "full_timeline_boundaries": [
+    0,
+    17,
+    58,
+    88,
+    99,
+    130
+  ],
+  "uses_global_frame_embedding": true,
+  "uses_relative_spatial_deltas": false,
+  "spatial_delta_features": [],
+  "interaction_embedding_streams": [
+    "spoon_source_interaction",
+    "spoon_target_interaction"
+  ]
+}

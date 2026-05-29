@@ -1,0 +1,1149 @@
+{
+  "raw_nodes": [
+    {
+      "raw_node_id": "raw_state_0000",
+      "abstract_node_id": "state_0000",
+      "role": "state",
+      "frame_id": 9,
+      "window_frames": [
+        0,
+        2,
+        5,
+        7,
+        9,
+        11,
+        14,
+        16
+      ],
+      "state_window": [
+        0,
+        16
+      ],
+      "image_path": "node_images/raw_state_0000.jpg",
+      "state_name": "state_0000",
+      "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=intact; target_container=empty",
+      "state_variables": {
+        "spoon_occupancy": "contains_material",
+        "spoon_to_source": "inside",
+        "spoon_to_target": "far",
+        "sugar_pile": "intact",
+        "target_container": "empty"
+      },
+      "visible_conditions": [
+        "spoon_occupancy=contains_material",
+        "spoon_to_source=inside",
+        "spoon_to_target=far",
+        "sugar_pile=intact",
+        "target_container=empty"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "{\n  \"node_id\": \"state_0000\",\n  \"state_name\": \"state_0000\",\n  \"state_summary\": \"spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=intact; target_container=empty\",\n  \"state_variables\": {\n    \"spoon_occupancy\": \"contains_material\",\n    \"spoon_to_source\": \"inside\",\n    \"spoon_to_target\": \"far\",\n    \"sugar_pile\": \"intact\",\n    \"target_container\": \"empty\"\n  },\n  \"visible_conditions\": [\n    \"spoon_occupancy=contains_material\",\n    \"spoon_to_source=inside\",\n    \"spoon_to_target=far\",\n    \"sugar_pile=intact\",\n    \"target_container=empty\"\n  ],\n  \"confidence\": 0.9,\n  \"reason\": \"clear visual evidence of the spoon containing material and its position relative to the bucket.\"\n}",
+        "parsed_vlm_output": {
+          "node_id": "state_0000",
+          "state_name": "state_0000",
+          "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=intact; target_container=empty",
+          "state_variables": {
+            "spoon_occupancy": "contains_material",
+            "spoon_to_source": "inside",
+            "spoon_to_target": "far",
+            "sugar_pile": "intact",
+            "target_container": "empty"
+          },
+          "visible_conditions": [
+            "spoon_occupancy=contains_material",
+            "spoon_to_source=inside",
+            "spoon_to_target=far",
+            "sugar_pile=intact",
+            "target_container=empty"
+          ],
+          "confidence": 0.9,
+          "reason": "clear visual evidence of the spoon containing material and its position relative to the bucket."
+        },
+        "state_name": "state_0000",
+        "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=intact; target_container=empty",
+        "state_variables": {
+          "spoon_occupancy": "contains_material",
+          "spoon_to_source": "inside",
+          "spoon_to_target": "far",
+          "sugar_pile": "intact",
+          "target_container": "empty"
+        },
+        "visible_conditions": [
+          "spoon_occupancy=contains_material",
+          "spoon_to_source=inside",
+          "spoon_to_target=far",
+          "sugar_pile=intact",
+          "target_container=empty"
+        ],
+        "confidence": 0.9,
+        "reason": "clear visual evidence of the spoon containing material and its position relative to the bucket."
+      }
+    },
+    {
+      "raw_node_id": "raw_state_0001",
+      "abstract_node_id": "state_0001",
+      "role": "state",
+      "frame_id": 40,
+      "window_frames": [
+        17,
+        23,
+        28,
+        34,
+        40,
+        46,
+        51,
+        57
+      ],
+      "state_window": [
+        17,
+        57
+      ],
+      "image_path": "node_images/raw_state_0001.jpg",
+      "state_name": "state_0001",
+      "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+      "state_variables": {
+        "spoon_occupancy": "contains_material",
+        "spoon_to_source": "inside",
+        "spoon_to_target": "far",
+        "sugar_pile": "disturbed",
+        "target_container": "empty"
+      },
+      "visible_conditions": [
+        "spoon_occupancy=contains_material",
+        "spoon_to_source=inside",
+        "spoon_to_target=far",
+        "sugar_pile=disturbed",
+        "target_container=empty"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "{\n  \"node_id\": \"state_0001\",\n  \"state_name\": \"state_0001\",\n  \"state_summary\": \"spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty\",\n  \"state_variables\": {\n    \"spoon_occupancy\": \"contains_material\",\n    \"spoon_to_source\": \"inside\",\n    \"spoon_to_target\": \"far\",\n    \"sugar_pile\": \"disturbed\",\n    \"target_container\": \"empty\"\n  },\n  \"visible_conditions\": [\n    \"spoon_occupancy=contains_material\",\n    \"spoon_to_source=inside\",\n    \"spoon_to_target=far\",\n    \"sugar_pile=disturbed\",\n    \"target_container=empty\"\n  ],\n  \"confidence\": 0.9,\n  \"reason\": \"clear visual evidence of the spoon containing material, source inside, target far, sugar pile disturbed, and target container empty.\"\n}",
+        "parsed_vlm_output": {
+          "node_id": "state_0001",
+          "state_name": "state_0001",
+          "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+          "state_variables": {
+            "spoon_occupancy": "contains_material",
+            "spoon_to_source": "inside",
+            "spoon_to_target": "far",
+            "sugar_pile": "disturbed",
+            "target_container": "empty"
+          },
+          "visible_conditions": [
+            "spoon_occupancy=contains_material",
+            "spoon_to_source=inside",
+            "spoon_to_target=far",
+            "sugar_pile=disturbed",
+            "target_container=empty"
+          ],
+          "confidence": 0.9,
+          "reason": "clear visual evidence of the spoon containing material, source inside, target far, sugar pile disturbed, and target container empty."
+        },
+        "state_name": "state_0001",
+        "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+        "state_variables": {
+          "spoon_occupancy": "contains_material",
+          "spoon_to_source": "inside",
+          "spoon_to_target": "far",
+          "sugar_pile": "disturbed",
+          "target_container": "empty"
+        },
+        "visible_conditions": [
+          "spoon_occupancy=contains_material",
+          "spoon_to_source=inside",
+          "spoon_to_target=far",
+          "sugar_pile=disturbed",
+          "target_container=empty"
+        ],
+        "confidence": 0.9,
+        "reason": "clear visual evidence of the spoon containing material, source inside, target far, sugar pile disturbed, and target container empty."
+      }
+    },
+    {
+      "raw_node_id": "raw_state_0002",
+      "abstract_node_id": "state_0002",
+      "role": "state",
+      "frame_id": 75,
+      "window_frames": [
+        58,
+        62,
+        66,
+        70,
+        75,
+        79,
+        83,
+        87
+      ],
+      "state_window": [
+        58,
+        87
+      ],
+      "image_path": "node_images/raw_state_0002.jpg",
+      "state_name": "state_0002",
+      "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+      "state_variables": {
+        "spoon_occupancy": "contains_material",
+        "spoon_to_source": "inside",
+        "spoon_to_target": "far",
+        "sugar_pile": "disturbed",
+        "target_container": "empty"
+      },
+      "visible_conditions": [
+        "spoon_occupancy=contains_material",
+        "spoon_to_source=inside",
+        "spoon_to_target=far",
+        "sugar_pile=disturbed",
+        "target_container=empty"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "{\n  \"node_id\": \"state_0002\",\n  \"state_name\": \"state_0002\",\n  \"state_summary\": \"spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty\",\n  \"state_variables\": {\n    \"spoon_occupancy\": \"contains_material\",\n    \"spoon_to_source\": \"inside\",\n    \"spoon_to_target\": \"far\",\n    \"sugar_pile\": \"disturbed\",\n    \"target_container\": \"empty\"\n  },\n  \"visible_conditions\": [\n    \"spoon_occupancy=contains_material\",\n    \"spoon_to_source=inside\",\n    \"spoon_to_target=far\",\n    \"sugar_pile=disturbed\",\n    \"target_container=empty\"\n  ],\n  \"confidence\": 0.9,\n  \"reason\": \"clear visual evidence of the spoon containing material, source being inside, target being far away, sugar pile being disturbed, and target container being empty.\"\n}",
+        "parsed_vlm_output": {
+          "node_id": "state_0002",
+          "state_name": "state_0002",
+          "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+          "state_variables": {
+            "spoon_occupancy": "contains_material",
+            "spoon_to_source": "inside",
+            "spoon_to_target": "far",
+            "sugar_pile": "disturbed",
+            "target_container": "empty"
+          },
+          "visible_conditions": [
+            "spoon_occupancy=contains_material",
+            "spoon_to_source=inside",
+            "spoon_to_target=far",
+            "sugar_pile=disturbed",
+            "target_container=empty"
+          ],
+          "confidence": 0.9,
+          "reason": "clear visual evidence of the spoon containing material, source being inside, target being far away, sugar pile being disturbed, and target container being empty."
+        },
+        "state_name": "state_0002",
+        "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+        "state_variables": {
+          "spoon_occupancy": "contains_material",
+          "spoon_to_source": "inside",
+          "spoon_to_target": "far",
+          "sugar_pile": "disturbed",
+          "target_container": "empty"
+        },
+        "visible_conditions": [
+          "spoon_occupancy=contains_material",
+          "spoon_to_source=inside",
+          "spoon_to_target=far",
+          "sugar_pile=disturbed",
+          "target_container=empty"
+        ],
+        "confidence": 0.9,
+        "reason": "clear visual evidence of the spoon containing material, source being inside, target being far away, sugar pile being disturbed, and target container being empty."
+      }
+    },
+    {
+      "raw_node_id": "raw_state_0003",
+      "abstract_node_id": "state_0003",
+      "role": "state",
+      "frame_id": 94,
+      "window_frames": [
+        88,
+        89,
+        91,
+        92,
+        94,
+        95,
+        97,
+        98
+      ],
+      "state_window": [
+        88,
+        98
+      ],
+      "image_path": "node_images/raw_state_0003.jpg",
+      "state_name": "state_0003",
+      "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+      "state_variables": {
+        "spoon_occupancy": "contains_material",
+        "spoon_to_source": "inside",
+        "spoon_to_target": "far",
+        "sugar_pile": "disturbed",
+        "target_container": "empty"
+      },
+      "visible_conditions": [
+        "spoon_occupancy=contains_material",
+        "spoon_to_source=inside",
+        "spoon_to_target=far",
+        "sugar_pile=disturbed",
+        "target_container=empty"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "{\n  \"node_id\": \"state_0003\",\n  \"state_name\": \"state_0003\",\n  \"state_summary\": \"spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty\",\n  \"state_variables\": {\n    \"spoon_occupancy\": \"contains_material\",\n    \"spoon_to_source\": \"inside\",\n    \"spoon_to_target\": \"far\",\n    \"sugar_pile\": \"disturbed\",\n    \"target_container\": \"empty\"\n  },\n  \"visible_conditions\": [\n    \"spoon_occupancy=contains_material\",\n    \"spoon_to_source=inside\",\n    \"spoon_to_target=far\",\n    \"sugar_pile=disturbed\",\n    \"target_container=empty\"\n  ],\n  \"confidence\": 0.9,\n  \"reason\": \"clear visual evidence of the spoon containing material, source being inside, target being far away, sugar pile being disturbed, and target container being empty.\"\n}",
+        "parsed_vlm_output": {
+          "node_id": "state_0003",
+          "state_name": "state_0003",
+          "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+          "state_variables": {
+            "spoon_occupancy": "contains_material",
+            "spoon_to_source": "inside",
+            "spoon_to_target": "far",
+            "sugar_pile": "disturbed",
+            "target_container": "empty"
+          },
+          "visible_conditions": [
+            "spoon_occupancy=contains_material",
+            "spoon_to_source=inside",
+            "spoon_to_target=far",
+            "sugar_pile=disturbed",
+            "target_container=empty"
+          ],
+          "confidence": 0.9,
+          "reason": "clear visual evidence of the spoon containing material, source being inside, target being far away, sugar pile being disturbed, and target container being empty."
+        },
+        "state_name": "state_0003",
+        "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+        "state_variables": {
+          "spoon_occupancy": "contains_material",
+          "spoon_to_source": "inside",
+          "spoon_to_target": "far",
+          "sugar_pile": "disturbed",
+          "target_container": "empty"
+        },
+        "visible_conditions": [
+          "spoon_occupancy=contains_material",
+          "spoon_to_source=inside",
+          "spoon_to_target=far",
+          "sugar_pile=disturbed",
+          "target_container=empty"
+        ],
+        "confidence": 0.9,
+        "reason": "clear visual evidence of the spoon containing material, source being inside, target being far away, sugar pile being disturbed, and target container being empty."
+      }
+    },
+    {
+      "raw_node_id": "raw_state_0004",
+      "abstract_node_id": "state_0004",
+      "role": "state",
+      "frame_id": 116,
+      "window_frames": [
+        99,
+        103,
+        108,
+        112,
+        116,
+        120,
+        125,
+        129
+      ],
+      "state_window": [
+        99,
+        129
+      ],
+      "image_path": "node_images/raw_state_0004.jpg",
+      "state_name": "state_0004",
+      "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=intact; target_container=empty",
+      "state_variables": {
+        "spoon_occupancy": "contains_material",
+        "spoon_to_source": "inside",
+        "spoon_to_target": "far",
+        "sugar_pile": "intact",
+        "target_container": "empty"
+      },
+      "visible_conditions": [
+        "spoon_occupancy=contains_material",
+        "spoon_to_source=inside",
+        "spoon_to_target=far",
+        "sugar_pile=intact",
+        "target_container=empty"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "{\n  \"node_id\": \"state_0004\",\n  \"state_name\": \"state_0004\",\n  \"state_summary\": \"spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=intact; target_container=empty\",\n  \"state_variables\": {\n    \"spoon_occupancy\": \"contains_material\",\n    \"spoon_to_source\": \"inside\",\n    \"spoon_to_target\": \"far\",\n    \"sugar_pile\": \"intact\",\n    \"target_container\": \"empty\"\n  },\n  \"visible_conditions\": [\n    \"spoon_occupancy=contains_material\",\n    \"spoon_to_source=inside\",\n    \"spoon_to_target=far\",\n    \"sugar_pile=intact\",\n    \"target_container=empty\"\n  ],\n  \"confidence\": 0.9,\n  \"reason\": \"clear visual evidence of the spoon containing material, source being inside, target being far away, sugar pile remaining intact, and target container being empty.\"\n}",
+        "parsed_vlm_output": {
+          "node_id": "state_0004",
+          "state_name": "state_0004",
+          "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=intact; target_container=empty",
+          "state_variables": {
+            "spoon_occupancy": "contains_material",
+            "spoon_to_source": "inside",
+            "spoon_to_target": "far",
+            "sugar_pile": "intact",
+            "target_container": "empty"
+          },
+          "visible_conditions": [
+            "spoon_occupancy=contains_material",
+            "spoon_to_source=inside",
+            "spoon_to_target=far",
+            "sugar_pile=intact",
+            "target_container=empty"
+          ],
+          "confidence": 0.9,
+          "reason": "clear visual evidence of the spoon containing material, source being inside, target being far away, sugar pile remaining intact, and target container being empty."
+        },
+        "state_name": "state_0004",
+        "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=intact; target_container=empty",
+        "state_variables": {
+          "spoon_occupancy": "contains_material",
+          "spoon_to_source": "inside",
+          "spoon_to_target": "far",
+          "sugar_pile": "intact",
+          "target_container": "empty"
+        },
+        "visible_conditions": [
+          "spoon_occupancy=contains_material",
+          "spoon_to_source=inside",
+          "spoon_to_target=far",
+          "sugar_pile=intact",
+          "target_container=empty"
+        ],
+        "confidence": 0.9,
+        "reason": "clear visual evidence of the spoon containing material, source being inside, target being far away, sugar pile remaining intact, and target container being empty."
+      }
+    }
+  ],
+  "abstract_nodes": [
+    {
+      "abstract_node_id": "state_0000",
+      "representative_raw_node_id": "raw_state_0000",
+      "representative_image_path": "node_images/raw_state_0000.jpg",
+      "representative_frame_id": 9,
+      "representative_role": "state",
+      "state_window": [
+        0,
+        16
+      ],
+      "state_name": "state_0000",
+      "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=intact; target_container=empty",
+      "state_variables": {
+        "spoon_occupancy": "contains_material",
+        "spoon_to_source": "inside",
+        "spoon_to_target": "far",
+        "sugar_pile": "intact",
+        "target_container": "empty"
+      },
+      "visible_conditions": [
+        "spoon_occupancy=contains_material",
+        "spoon_to_source=inside",
+        "spoon_to_target=far",
+        "sugar_pile=intact",
+        "target_container=empty"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "{\n  \"node_id\": \"state_0000\",\n  \"state_name\": \"state_0000\",\n  \"state_summary\": \"spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=intact; target_container=empty\",\n  \"state_variables\": {\n    \"spoon_occupancy\": \"contains_material\",\n    \"spoon_to_source\": \"inside\",\n    \"spoon_to_target\": \"far\",\n    \"sugar_pile\": \"intact\",\n    \"target_container\": \"empty\"\n  },\n  \"visible_conditions\": [\n    \"spoon_occupancy=contains_material\",\n    \"spoon_to_source=inside\",\n    \"spoon_to_target=far\",\n    \"sugar_pile=intact\",\n    \"target_container=empty\"\n  ],\n  \"confidence\": 0.9,\n  \"reason\": \"clear visual evidence of the spoon containing material and its position relative to the bucket.\"\n}",
+        "parsed_vlm_output": {
+          "node_id": "state_0000",
+          "state_name": "state_0000",
+          "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=intact; target_container=empty",
+          "state_variables": {
+            "spoon_occupancy": "contains_material",
+            "spoon_to_source": "inside",
+            "spoon_to_target": "far",
+            "sugar_pile": "intact",
+            "target_container": "empty"
+          },
+          "visible_conditions": [
+            "spoon_occupancy=contains_material",
+            "spoon_to_source=inside",
+            "spoon_to_target=far",
+            "sugar_pile=intact",
+            "target_container=empty"
+          ],
+          "confidence": 0.9,
+          "reason": "clear visual evidence of the spoon containing material and its position relative to the bucket."
+        },
+        "state_name": "state_0000",
+        "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=intact; target_container=empty",
+        "state_variables": {
+          "spoon_occupancy": "contains_material",
+          "spoon_to_source": "inside",
+          "spoon_to_target": "far",
+          "sugar_pile": "intact",
+          "target_container": "empty"
+        },
+        "visible_conditions": [
+          "spoon_occupancy=contains_material",
+          "spoon_to_source=inside",
+          "spoon_to_target=far",
+          "sugar_pile=intact",
+          "target_container=empty"
+        ],
+        "confidence": 0.9,
+        "reason": "clear visual evidence of the spoon containing material and its position relative to the bucket."
+      },
+      "members": [
+        "raw_state_0000"
+      ],
+      "equivalence_checks": []
+    },
+    {
+      "abstract_node_id": "state_0001",
+      "representative_raw_node_id": "raw_state_0001",
+      "representative_image_path": "node_images/raw_state_0001.jpg",
+      "representative_frame_id": 40,
+      "representative_role": "state",
+      "state_window": [
+        17,
+        57
+      ],
+      "state_name": "state_0001",
+      "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+      "state_variables": {
+        "spoon_occupancy": "contains_material",
+        "spoon_to_source": "inside",
+        "spoon_to_target": "far",
+        "sugar_pile": "disturbed",
+        "target_container": "empty"
+      },
+      "visible_conditions": [
+        "spoon_occupancy=contains_material",
+        "spoon_to_source=inside",
+        "spoon_to_target=far",
+        "sugar_pile=disturbed",
+        "target_container=empty"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "{\n  \"node_id\": \"state_0001\",\n  \"state_name\": \"state_0001\",\n  \"state_summary\": \"spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty\",\n  \"state_variables\": {\n    \"spoon_occupancy\": \"contains_material\",\n    \"spoon_to_source\": \"inside\",\n    \"spoon_to_target\": \"far\",\n    \"sugar_pile\": \"disturbed\",\n    \"target_container\": \"empty\"\n  },\n  \"visible_conditions\": [\n    \"spoon_occupancy=contains_material\",\n    \"spoon_to_source=inside\",\n    \"spoon_to_target=far\",\n    \"sugar_pile=disturbed\",\n    \"target_container=empty\"\n  ],\n  \"confidence\": 0.9,\n  \"reason\": \"clear visual evidence of the spoon containing material, source inside, target far, sugar pile disturbed, and target container empty.\"\n}",
+        "parsed_vlm_output": {
+          "node_id": "state_0001",
+          "state_name": "state_0001",
+          "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+          "state_variables": {
+            "spoon_occupancy": "contains_material",
+            "spoon_to_source": "inside",
+            "spoon_to_target": "far",
+            "sugar_pile": "disturbed",
+            "target_container": "empty"
+          },
+          "visible_conditions": [
+            "spoon_occupancy=contains_material",
+            "spoon_to_source=inside",
+            "spoon_to_target=far",
+            "sugar_pile=disturbed",
+            "target_container=empty"
+          ],
+          "confidence": 0.9,
+          "reason": "clear visual evidence of the spoon containing material, source inside, target far, sugar pile disturbed, and target container empty."
+        },
+        "state_name": "state_0001",
+        "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+        "state_variables": {
+          "spoon_occupancy": "contains_material",
+          "spoon_to_source": "inside",
+          "spoon_to_target": "far",
+          "sugar_pile": "disturbed",
+          "target_container": "empty"
+        },
+        "visible_conditions": [
+          "spoon_occupancy=contains_material",
+          "spoon_to_source=inside",
+          "spoon_to_target=far",
+          "sugar_pile=disturbed",
+          "target_container=empty"
+        ],
+        "confidence": 0.9,
+        "reason": "clear visual evidence of the spoon containing material, source inside, target far, sugar pile disturbed, and target container empty."
+      },
+      "members": [
+        "raw_state_0001"
+      ],
+      "equivalence_checks": []
+    },
+    {
+      "abstract_node_id": "state_0002",
+      "representative_raw_node_id": "raw_state_0002",
+      "representative_image_path": "node_images/raw_state_0002.jpg",
+      "representative_frame_id": 75,
+      "representative_role": "state",
+      "state_window": [
+        58,
+        87
+      ],
+      "state_name": "state_0002",
+      "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+      "state_variables": {
+        "spoon_occupancy": "contains_material",
+        "spoon_to_source": "inside",
+        "spoon_to_target": "far",
+        "sugar_pile": "disturbed",
+        "target_container": "empty"
+      },
+      "visible_conditions": [
+        "spoon_occupancy=contains_material",
+        "spoon_to_source=inside",
+        "spoon_to_target=far",
+        "sugar_pile=disturbed",
+        "target_container=empty"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "{\n  \"node_id\": \"state_0002\",\n  \"state_name\": \"state_0002\",\n  \"state_summary\": \"spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty\",\n  \"state_variables\": {\n    \"spoon_occupancy\": \"contains_material\",\n    \"spoon_to_source\": \"inside\",\n    \"spoon_to_target\": \"far\",\n    \"sugar_pile\": \"disturbed\",\n    \"target_container\": \"empty\"\n  },\n  \"visible_conditions\": [\n    \"spoon_occupancy=contains_material\",\n    \"spoon_to_source=inside\",\n    \"spoon_to_target=far\",\n    \"sugar_pile=disturbed\",\n    \"target_container=empty\"\n  ],\n  \"confidence\": 0.9,\n  \"reason\": \"clear visual evidence of the spoon containing material, source being inside, target being far away, sugar pile being disturbed, and target container being empty.\"\n}",
+        "parsed_vlm_output": {
+          "node_id": "state_0002",
+          "state_name": "state_0002",
+          "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+          "state_variables": {
+            "spoon_occupancy": "contains_material",
+            "spoon_to_source": "inside",
+            "spoon_to_target": "far",
+            "sugar_pile": "disturbed",
+            "target_container": "empty"
+          },
+          "visible_conditions": [
+            "spoon_occupancy=contains_material",
+            "spoon_to_source=inside",
+            "spoon_to_target=far",
+            "sugar_pile=disturbed",
+            "target_container=empty"
+          ],
+          "confidence": 0.9,
+          "reason": "clear visual evidence of the spoon containing material, source being inside, target being far away, sugar pile being disturbed, and target container being empty."
+        },
+        "state_name": "state_0002",
+        "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+        "state_variables": {
+          "spoon_occupancy": "contains_material",
+          "spoon_to_source": "inside",
+          "spoon_to_target": "far",
+          "sugar_pile": "disturbed",
+          "target_container": "empty"
+        },
+        "visible_conditions": [
+          "spoon_occupancy=contains_material",
+          "spoon_to_source=inside",
+          "spoon_to_target=far",
+          "sugar_pile=disturbed",
+          "target_container=empty"
+        ],
+        "confidence": 0.9,
+        "reason": "clear visual evidence of the spoon containing material, source being inside, target being far away, sugar pile being disturbed, and target container being empty."
+      },
+      "members": [
+        "raw_state_0002"
+      ],
+      "equivalence_checks": []
+    },
+    {
+      "abstract_node_id": "state_0003",
+      "representative_raw_node_id": "raw_state_0003",
+      "representative_image_path": "node_images/raw_state_0003.jpg",
+      "representative_frame_id": 94,
+      "representative_role": "state",
+      "state_window": [
+        88,
+        98
+      ],
+      "state_name": "state_0003",
+      "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+      "state_variables": {
+        "spoon_occupancy": "contains_material",
+        "spoon_to_source": "inside",
+        "spoon_to_target": "far",
+        "sugar_pile": "disturbed",
+        "target_container": "empty"
+      },
+      "visible_conditions": [
+        "spoon_occupancy=contains_material",
+        "spoon_to_source=inside",
+        "spoon_to_target=far",
+        "sugar_pile=disturbed",
+        "target_container=empty"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "{\n  \"node_id\": \"state_0003\",\n  \"state_name\": \"state_0003\",\n  \"state_summary\": \"spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty\",\n  \"state_variables\": {\n    \"spoon_occupancy\": \"contains_material\",\n    \"spoon_to_source\": \"inside\",\n    \"spoon_to_target\": \"far\",\n    \"sugar_pile\": \"disturbed\",\n    \"target_container\": \"empty\"\n  },\n  \"visible_conditions\": [\n    \"spoon_occupancy=contains_material\",\n    \"spoon_to_source=inside\",\n    \"spoon_to_target=far\",\n    \"sugar_pile=disturbed\",\n    \"target_container=empty\"\n  ],\n  \"confidence\": 0.9,\n  \"reason\": \"clear visual evidence of the spoon containing material, source being inside, target being far away, sugar pile being disturbed, and target container being empty.\"\n}",
+        "parsed_vlm_output": {
+          "node_id": "state_0003",
+          "state_name": "state_0003",
+          "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+          "state_variables": {
+            "spoon_occupancy": "contains_material",
+            "spoon_to_source": "inside",
+            "spoon_to_target": "far",
+            "sugar_pile": "disturbed",
+            "target_container": "empty"
+          },
+          "visible_conditions": [
+            "spoon_occupancy=contains_material",
+            "spoon_to_source=inside",
+            "spoon_to_target=far",
+            "sugar_pile=disturbed",
+            "target_container=empty"
+          ],
+          "confidence": 0.9,
+          "reason": "clear visual evidence of the spoon containing material, source being inside, target being far away, sugar pile being disturbed, and target container being empty."
+        },
+        "state_name": "state_0003",
+        "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+        "state_variables": {
+          "spoon_occupancy": "contains_material",
+          "spoon_to_source": "inside",
+          "spoon_to_target": "far",
+          "sugar_pile": "disturbed",
+          "target_container": "empty"
+        },
+        "visible_conditions": [
+          "spoon_occupancy=contains_material",
+          "spoon_to_source=inside",
+          "spoon_to_target=far",
+          "sugar_pile=disturbed",
+          "target_container=empty"
+        ],
+        "confidence": 0.9,
+        "reason": "clear visual evidence of the spoon containing material, source being inside, target being far away, sugar pile being disturbed, and target container being empty."
+      },
+      "members": [
+        "raw_state_0003"
+      ],
+      "equivalence_checks": []
+    },
+    {
+      "abstract_node_id": "state_0004",
+      "representative_raw_node_id": "raw_state_0004",
+      "representative_image_path": "node_images/raw_state_0004.jpg",
+      "representative_frame_id": 116,
+      "representative_role": "state",
+      "state_window": [
+        99,
+        129
+      ],
+      "state_name": "state_0004",
+      "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=intact; target_container=empty",
+      "state_variables": {
+        "spoon_occupancy": "contains_material",
+        "spoon_to_source": "inside",
+        "spoon_to_target": "far",
+        "sugar_pile": "intact",
+        "target_container": "empty"
+      },
+      "visible_conditions": [
+        "spoon_occupancy=contains_material",
+        "spoon_to_source=inside",
+        "spoon_to_target=far",
+        "sugar_pile=intact",
+        "target_container=empty"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "{\n  \"node_id\": \"state_0004\",\n  \"state_name\": \"state_0004\",\n  \"state_summary\": \"spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=intact; target_container=empty\",\n  \"state_variables\": {\n    \"spoon_occupancy\": \"contains_material\",\n    \"spoon_to_source\": \"inside\",\n    \"spoon_to_target\": \"far\",\n    \"sugar_pile\": \"intact\",\n    \"target_container\": \"empty\"\n  },\n  \"visible_conditions\": [\n    \"spoon_occupancy=contains_material\",\n    \"spoon_to_source=inside\",\n    \"spoon_to_target=far\",\n    \"sugar_pile=intact\",\n    \"target_container=empty\"\n  ],\n  \"confidence\": 0.9,\n  \"reason\": \"clear visual evidence of the spoon containing material, source being inside, target being far away, sugar pile remaining intact, and target container being empty.\"\n}",
+        "parsed_vlm_output": {
+          "node_id": "state_0004",
+          "state_name": "state_0004",
+          "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=intact; target_container=empty",
+          "state_variables": {
+            "spoon_occupancy": "contains_material",
+            "spoon_to_source": "inside",
+            "spoon_to_target": "far",
+            "sugar_pile": "intact",
+            "target_container": "empty"
+          },
+          "visible_conditions": [
+            "spoon_occupancy=contains_material",
+            "spoon_to_source=inside",
+            "spoon_to_target=far",
+            "sugar_pile=intact",
+            "target_container=empty"
+          ],
+          "confidence": 0.9,
+          "reason": "clear visual evidence of the spoon containing material, source being inside, target being far away, sugar pile remaining intact, and target container being empty."
+        },
+        "state_name": "state_0004",
+        "state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=intact; target_container=empty",
+        "state_variables": {
+          "spoon_occupancy": "contains_material",
+          "spoon_to_source": "inside",
+          "spoon_to_target": "far",
+          "sugar_pile": "intact",
+          "target_container": "empty"
+        },
+        "visible_conditions": [
+          "spoon_occupancy=contains_material",
+          "spoon_to_source=inside",
+          "spoon_to_target=far",
+          "sugar_pile=intact",
+          "target_container=empty"
+        ],
+        "confidence": 0.9,
+        "reason": "clear visual evidence of the spoon containing material, source being inside, target being far away, sugar pile remaining intact, and target container being empty."
+      },
+      "members": [
+        "raw_state_0004"
+      ],
+      "equivalence_checks": []
+    }
+  ],
+  "edges": [
+    {
+      "trajectory_id": "tau_0000",
+      "boundary_frame": 17,
+      "transition_window": [
+        15,
+        19
+      ],
+      "transition_frame_indices": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "source": "state_0000",
+      "target": "state_0001",
+      "source_state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=intact; target_container=empty",
+      "target_state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+      "source_state_variables": {
+        "spoon_occupancy": "contains_material",
+        "spoon_to_source": "inside",
+        "spoon_to_target": "far",
+        "sugar_pile": "intact",
+        "target_container": "empty"
+      },
+      "target_state_variables": {
+        "spoon_occupancy": "contains_material",
+        "spoon_to_source": "inside",
+        "spoon_to_target": "far",
+        "sugar_pile": "disturbed",
+        "target_container": "empty"
+      },
+      "source_visible_conditions": [
+        "spoon_occupancy=contains_material",
+        "spoon_to_source=inside",
+        "spoon_to_target=far",
+        "sugar_pile=intact",
+        "target_container=empty"
+      ],
+      "target_visible_conditions": [
+        "spoon_occupancy=contains_material",
+        "spoon_to_source=inside",
+        "spoon_to_target=far",
+        "sugar_pile=disturbed",
+        "target_container=empty"
+      ],
+      "skill_label": "none",
+      "label_source": "vlm_pre_post_state_change_with_boundary_evidence_closed_set_skill_validated",
+      "confidence": 0.9,
+      "reason": "corrected_to_none: scoop forbidden because PRE and POST both contain material; original_vlm_label=scoop; original_reason=PRE spoon_occupancy=contains_material; POST spoon_occupancy=contains_material; POST sugar_pile=disturbed",
+      "raw_vlm_output": "```json\n{\n  \"trajectory_id\": \"tau_0000\",\n  \"skill_label\": \"scoop\",\n  \"confidence\": 0.9,\n  \"reason\": \"PRE spoon_occupancy=contains_material; POST spoon_occupancy=contains_material; POST sugar_pile=disturbed\"\n}\n```",
+      "parsed_vlm_output": {
+        "trajectory_id": "tau_0000",
+        "skill_label": "scoop",
+        "confidence": 0.9,
+        "reason": "PRE spoon_occupancy=contains_material; POST spoon_occupancy=contains_material; POST sugar_pile=disturbed"
+      }
+    },
+    {
+      "trajectory_id": "tau_0001",
+      "boundary_frame": 58,
+      "transition_window": [
+        55,
+        61
+      ],
+      "transition_frame_indices": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "source": "state_0001",
+      "target": "state_0002",
+      "source_state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+      "target_state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+      "source_state_variables": {
+        "spoon_occupancy": "contains_material",
+        "spoon_to_source": "inside",
+        "spoon_to_target": "far",
+        "sugar_pile": "disturbed",
+        "target_container": "empty"
+      },
+      "target_state_variables": {
+        "spoon_occupancy": "contains_material",
+        "spoon_to_source": "inside",
+        "spoon_to_target": "far",
+        "sugar_pile": "disturbed",
+        "target_container": "empty"
+      },
+      "source_visible_conditions": [
+        "spoon_occupancy=contains_material",
+        "spoon_to_source=inside",
+        "spoon_to_target=far",
+        "sugar_pile=disturbed",
+        "target_container=empty"
+      ],
+      "target_visible_conditions": [
+        "spoon_occupancy=contains_material",
+        "spoon_to_source=inside",
+        "spoon_to_target=far",
+        "sugar_pile=disturbed",
+        "target_container=empty"
+      ],
+      "skill_label": "none",
+      "label_source": "vlm_pre_post_state_change_with_boundary_evidence_closed_set_skill_validated",
+      "confidence": 0.9,
+      "reason": "corrected_to_none: no task-relevant PRE\u2192POST state-variable change; original_vlm_label=scoop; original_reason=PRE spoon_occupancy=contains_material; POST spoon_occupancy=contains_material; Optional support: sugar_pile changes from intact to disturbed",
+      "raw_vlm_output": "{\n  \"trajectory_id\": \"tau_0001\",\n  \"skill_label\": \"scoop\",\n  \"confidence\": 0.9,\n  \"reason\": \"PRE spoon_occupancy=contains_material; POST spoon_occupancy=contains_material; Optional support: sugar_pile changes from intact to disturbed\"\n}",
+      "parsed_vlm_output": {
+        "trajectory_id": "tau_0001",
+        "skill_label": "scoop",
+        "confidence": 0.9,
+        "reason": "PRE spoon_occupancy=contains_material; POST spoon_occupancy=contains_material; Optional support: sugar_pile changes from intact to disturbed"
+      }
+    },
+    {
+      "trajectory_id": "tau_0002",
+      "boundary_frame": 88,
+      "transition_window": [
+        87,
+        89
+      ],
+      "transition_frame_indices": [
+        87,
+        88,
+        89
+      ],
+      "source": "state_0002",
+      "target": "state_0003",
+      "source_state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+      "target_state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+      "source_state_variables": {
+        "spoon_occupancy": "contains_material",
+        "spoon_to_source": "inside",
+        "spoon_to_target": "far",
+        "sugar_pile": "disturbed",
+        "target_container": "empty"
+      },
+      "target_state_variables": {
+        "spoon_occupancy": "contains_material",
+        "spoon_to_source": "inside",
+        "spoon_to_target": "far",
+        "sugar_pile": "disturbed",
+        "target_container": "empty"
+      },
+      "source_visible_conditions": [
+        "spoon_occupancy=contains_material",
+        "spoon_to_source=inside",
+        "spoon_to_target=far",
+        "sugar_pile=disturbed",
+        "target_container=empty"
+      ],
+      "target_visible_conditions": [
+        "spoon_occupancy=contains_material",
+        "spoon_to_source=inside",
+        "spoon_to_target=far",
+        "sugar_pile=disturbed",
+        "target_container=empty"
+      ],
+      "skill_label": "none",
+      "label_source": "vlm_pre_post_state_change_with_boundary_evidence_closed_set_skill_validated",
+      "confidence": 0.9,
+      "reason": "corrected_to_none: no task-relevant PRE\u2192POST state-variable change; original_vlm_label=scoop; original_reason=PRE spoon_occupancy=contains_material; POST spoon_occupancy=contains_material; Optional support: sugar_pile changes from intact to disturbed",
+      "raw_vlm_output": "{\n  \"trajectory_id\": \"tau_0002\",\n  \"skill_label\": \"scoop\",\n  \"confidence\": 0.9,\n  \"reason\": \"PRE spoon_occupancy=contains_material; POST spoon_occupancy=contains_material; Optional support: sugar_pile changes from intact to disturbed\"\n}",
+      "parsed_vlm_output": {
+        "trajectory_id": "tau_0002",
+        "skill_label": "scoop",
+        "confidence": 0.9,
+        "reason": "PRE spoon_occupancy=contains_material; POST spoon_occupancy=contains_material; Optional support: sugar_pile changes from intact to disturbed"
+      }
+    },
+    {
+      "trajectory_id": "tau_0003",
+      "boundary_frame": 99,
+      "transition_window": [
+        98,
+        100
+      ],
+      "transition_frame_indices": [
+        98,
+        99,
+        100
+      ],
+      "source": "state_0003",
+      "target": "state_0004",
+      "source_state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty",
+      "target_state_summary": "spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=intact; target_container=empty",
+      "source_state_variables": {
+        "spoon_occupancy": "contains_material",
+        "spoon_to_source": "inside",
+        "spoon_to_target": "far",
+        "sugar_pile": "disturbed",
+        "target_container": "empty"
+      },
+      "target_state_variables": {
+        "spoon_occupancy": "contains_material",
+        "spoon_to_source": "inside",
+        "spoon_to_target": "far",
+        "sugar_pile": "intact",
+        "target_container": "empty"
+      },
+      "source_visible_conditions": [
+        "spoon_occupancy=contains_material",
+        "spoon_to_source=inside",
+        "spoon_to_target=far",
+        "sugar_pile=disturbed",
+        "target_container=empty"
+      ],
+      "target_visible_conditions": [
+        "spoon_occupancy=contains_material",
+        "spoon_to_source=inside",
+        "spoon_to_target=far",
+        "sugar_pile=intact",
+        "target_container=empty"
+      ],
+      "skill_label": "none",
+      "label_source": "vlm_pre_post_state_change_with_boundary_evidence_closed_set_skill_validated",
+      "confidence": 0.9,
+      "reason": "corrected_to_none: scoop forbidden because PRE and POST both contain material; original_vlm_label=scoop; original_reason=PRE spoon_occupancy=contains_material; POST spoon_occupancy=contains_material; Optional support: sugar_pile changes from intact to disturbed",
+      "raw_vlm_output": "```json\n{\n  \"trajectory_id\": \"tau_0003\",\n  \"skill_label\": \"scoop\",\n  \"confidence\": 0.9,\n  \"reason\": \"PRE spoon_occupancy=contains_material; POST spoon_occupancy=contains_material; Optional support: sugar_pile changes from intact to disturbed\"\n}\n```",
+      "parsed_vlm_output": {
+        "trajectory_id": "tau_0003",
+        "skill_label": "scoop",
+        "confidence": 0.9,
+        "reason": "PRE spoon_occupancy=contains_material; POST spoon_occupancy=contains_material; Optional support: sugar_pile changes from intact to disturbed"
+      }
+    }
+  ],
+  "pipeline": [
+    "OWLv2 open-vocabulary object localization",
+    "object/task-centric crop extraction",
+    "global-frame extraction for scene layout",
+    "object-centric crop extraction for spoon and source sugar pile",
+    "interaction-centric pair crop extraction for spoon-source and spoon-target regions",
+    "global-frame extraction for scene layout",
+    "DINOv2 object, interaction, and global-frame embedding extraction",
+    "object-centric + interaction-centric + scene-level feature aggregation",
+    "temporal embedding delta construction; optional PCA disabled by default",
+    "ruptures PELT with RBF cost on joint embedding signal",
+    "rupture-defined state segments and compact boundary evidence windows",
+    "VLM state semantics and PRE-to-POST skill inference",
+    "symbolic state-skill graph construction"
+  ],
+  "skill_vocabulary": [
+    "approach",
+    "scoop",
+    "lift",
+    "transport",
+    "dump",
+    "return",
+    "none"
+  ],
+  "state_hints": "\nState clips are rupture-defined frame segments between embedding change boundaries.\n\nDescribe ONLY visible scene conditions.\nA state is not an action.\n\nOutput ONLY conditions observable in the current segment.\n\nRequired fields:\n- spoon_occupancy:\n    empty / contains_material\n\n- spoon_to_source:\n    inside / near / far\n\n- spoon_to_target:\n    near / far\n\n- sugar_pile:\n    intact / disturbed\n\n- target_container:\n    empty / contains_material\n\nRules:\n- Do NOT infer action.\n- Do NOT infer skill.\n- Do NOT infer what happened before.\n- Do NOT infer what happens next.\n- Ignore human intent.\n- Use ONLY the allowed values above.\n- Do not output unclear. Choose the closest visible state from the allowed vocabulary.\n\nState summary should be a compact condition list.\n\nGood:\n\"spoon_occupancy=contains_material; spoon_to_source=inside; spoon_to_target=far; sugar_pile=disturbed; target_container=empty\"\n\nBad:\n\"spoon scooping sugar\"\n\"spoon moving toward bucket\"\n\"spoon_occupancy=value\"\n\"spoon_occupancy=unclear\"\n",
+  "segmentation_method": "PELT_RBF_on_joint_DINOv2_object_interaction_global_embeddings",
+  "boundaries": [
+    17,
+    58,
+    88,
+    99
+  ],
+  "object_detector": {
+    "model_id": "google/owlv2-base-patch16-ensemble",
+    "object_prompts": {
+      "spoon": [
+        "spoon",
+        "metal spoon",
+        "scoop spoon",
+        "spoon containing brown sugar",
+        "empty spoon"
+      ],
+      "sugar_pile": [
+        "brown sugar pile",
+        "sugar pile",
+        "brown sugar",
+        "granular material",
+        "disturbed sugar pile"
+      ],
+      "source_container": [
+        "container with brown sugar",
+        "bowl with brown sugar",
+        "sugar container",
+        "source container"
+      ],
+      "target_container": [
+        "bucket",
+        "dump bucket",
+        "target bucket",
+        "container bucket"
+      ]
+    },
+    "score_threshold": 0.12,
+    "detection_stride": 1
+  },
+  "embedding_model": {
+    "model_id": "facebook/dinov2-base",
+    "object_streams": [
+      "spoon",
+      "sugar_pile"
+    ],
+    "interaction_streams": [
+      "spoon_source_interaction",
+      "spoon_target_interaction"
+    ],
+    "uses_global_frame_embedding": true,
+    "uses_relative_spatial_deltas": false,
+    "spatial_delta_features": [],
+    "aggregation": "concatenate DINO embeddings from object-centric crops, interaction-centric pair crops, and optional global frame per sampled frame",
+    "uses_delta_embeddings_for_ruptures": true,
+    "pca_dims": null
+  },
+  "change_point_detector": {
+    "library": "ruptures",
+    "algorithm": "PELT",
+    "model": "rbf",
+    "penalty": 4,
+    "input_features": "joint DINOv2 embeddings from OWLv2 object-centric crops, interaction-centric pair crops, and optional global-frame embedding; optional temporal embedding deltas; no explicit geometry features",
+    "rbf_interpretation": "RBF measures nonlinear similarity shifts in embedding space; PELT searches for optimal change-point boundaries.",
+    "min_size_detection_steps": 1,
+    "min_size_interpretation": "minimal numerical constraint only; no manual segment duration is imposed"
+  },
+  "vlm_reasoning": {
+    "model_id": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "role": "infer structured state variables from rupture segments, then infer and validate skills only from explicit PRE-to-POST state-variable changes",
+    "state_windows": "rupture-defined frame segments; each state segment is inferred once",
+    "transition_windows": "compact neighborhoods around rupture boundaries; used only to verify PRE-to-POST state-change skill inference",
+    "no_handcrafted_state_rules": true,
+    "segmentation_uses_explicit_geometry": false
+  },
+  "boundary_debug": {
+    "pipeline": "OWLv2 detection -> object-centric crops + interaction-centric pair crops + global frame -> DINOv2 embeddings -> aggregate -> PELT(model='rbf')",
+    "algorithm": "ruptures.Pelt(model='rbf', pen=4)",
+    "rbf_interpretation": "RBF measures nonlinear similarity changes in the joint DINO embedding signal.",
+    "embedding_streams": [
+      "spoon",
+      "sugar_pile",
+      "spoon_source_interaction",
+      "spoon_target_interaction",
+      "global_frame"
+    ],
+    "detection_stride": 1,
+    "owl_score_threshold": 0.12,
+    "dino_model_id": "facebook/dinov2-base",
+    "signal_info": {
+      "raw_embedding_dim": 3840,
+      "signal_dim": 7680,
+      "pca": {
+        "used": false,
+        "reason": "sklearn unavailable, PCA disabled, or dimensions already small"
+      },
+      "uses_delta_embeddings": true,
+      "smoothing_window": 3,
+      "interpretation": "learned object-centric + interaction-centric + global-scene DINO embedding signal; PELT+RBF detects distribution/similarity shifts"
+    },
+    "min_size_detection_steps": 1,
+    "min_size_interpretation": "minimal numerical constraint only; no manual segment duration is imposed",
+    "boundary_frames": [
+      17,
+      58,
+      88,
+      99
+    ],
+    "full_timeline_boundaries": [
+      0,
+      17,
+      58,
+      88,
+      99,
+      130
+    ],
+    "uses_global_frame_embedding": true,
+    "uses_relative_spatial_deltas": false,
+    "spatial_delta_features": [],
+    "interaction_embedding_streams": [
+      "spoon_source_interaction",
+      "spoon_target_interaction"
+    ]
+  },
+  "state_equivalence_confidence_threshold": 0.95,
+  "disable_state_merging_for_debug": true
+}

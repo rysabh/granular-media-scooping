@@ -1,0 +1,1603 @@
+{
+  "raw_nodes": [
+    {
+      "raw_node_id": "raw_node_0000_pre",
+      "trajectory_id": "tau_0000",
+      "role": "pre_state",
+      "frame_id": 0,
+      "image_path": "node_images/raw_node_0000_pre.jpg",
+      "state_summary": "Spoon is near the container with brown sugar, touching the sugar pile.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon",
+        "sugar_pile_disturbed"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0000_pre\",\n  \"state_summary\": \"Spoon is near the container with brown sugar, touching the sugar pile.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\", \"sugar_pile_disturbed\"],\n  \"confidence\": 0.8\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0000_pre",
+          "state_summary": "Spoon is near the container with brown sugar, touching the sugar pile.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon",
+            "sugar_pile_disturbed"
+          ],
+          "confidence": 0.8
+        },
+        "state_summary": "Spoon is near the container with brown sugar, touching the sugar pile.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon",
+          "sugar_pile_disturbed"
+        ],
+        "confidence": 0.8
+      }
+    },
+    {
+      "raw_node_id": "raw_node_0000_post",
+      "trajectory_id": "tau_0000",
+      "role": "post_state",
+      "frame_id": 17,
+      "image_path": "node_images/raw_node_0000_post.jpg",
+      "state_summary": "Spoon is near the brown sugar container, stirring it.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon",
+        "sugar_pile_disturbed"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0000_post\",\n  \"state_summary\": \"Spoon is near the brown sugar container, stirring it.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\", \"sugar_pile_disturbed\"],\n  \"confidence\": 0.9\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0000_post",
+          "state_summary": "Spoon is near the brown sugar container, stirring it.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon",
+            "sugar_pile_disturbed"
+          ],
+          "confidence": 0.9
+        },
+        "state_summary": "Spoon is near the brown sugar container, stirring it.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon",
+          "sugar_pile_disturbed"
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "raw_node_id": "raw_node_0001_pre",
+      "trajectory_id": "tau_0001",
+      "role": "pre_state",
+      "frame_id": 18,
+      "image_path": "node_images/raw_node_0001_pre.jpg",
+      "state_summary": "Spoon is near the brown sugar container, stirring the sugar.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon",
+        "sugar_pile_disturbed"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0001_pre\",\n  \"state_summary\": \"Spoon is near the brown sugar container, stirring the sugar.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\", \"sugar_pile_disturbed\"],\n  \"confidence\": 0.9\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0001_pre",
+          "state_summary": "Spoon is near the brown sugar container, stirring the sugar.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon",
+            "sugar_pile_disturbed"
+          ],
+          "confidence": 0.9
+        },
+        "state_summary": "Spoon is near the brown sugar container, stirring the sugar.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon",
+          "sugar_pile_disturbed"
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "raw_node_id": "raw_node_0001_post",
+      "trajectory_id": "tau_0001",
+      "role": "post_state",
+      "frame_id": 44,
+      "image_path": "node_images/raw_node_0001_post.jpg",
+      "state_summary": "Spoon is near the brown sugar container, partially submerged in the sugar pile.",
+      "predicates": [
+        "tool_near_source",
+        "tool_near_target",
+        "tool_loaded",
+        "material_in_spoon",
+        "sugar_pile_disturbed"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0001_post\",\n  \"state_summary\": \"Spoon is near the brown sugar container, partially submerged in the sugar pile.\",\n  \"predicates\": [\"tool_near_source\", \"tool_near_target\", \"tool_loaded\", \"material_in_spoon\", \"sugar_pile_disturbed\"],\n  \"confidence\": 0.8\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0001_post",
+          "state_summary": "Spoon is near the brown sugar container, partially submerged in the sugar pile.",
+          "predicates": [
+            "tool_near_source",
+            "tool_near_target",
+            "tool_loaded",
+            "material_in_spoon",
+            "sugar_pile_disturbed"
+          ],
+          "confidence": 0.8
+        },
+        "state_summary": "Spoon is near the brown sugar container, partially submerged in the sugar pile.",
+        "predicates": [
+          "tool_near_source",
+          "tool_near_target",
+          "tool_loaded",
+          "material_in_spoon",
+          "sugar_pile_disturbed"
+        ],
+        "confidence": 0.8
+      }
+    },
+    {
+      "raw_node_id": "raw_node_0002_pre",
+      "trajectory_id": "tau_0002",
+      "role": "pre_state",
+      "frame_id": 45,
+      "image_path": "node_images/raw_node_0002_pre.jpg",
+      "state_summary": "Spoon is near the brown sugar container, partially loaded with sugar.",
+      "predicates": [
+        "tool_near_source",
+        "tool_loaded",
+        "material_in_spoon",
+        "sugar_pile_disturbed"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0002_pre\",\n  \"state_summary\": \"Spoon is near the brown sugar container, partially loaded with sugar.\",\n  \"predicates\": [\"tool_near_source\", \"tool_loaded\", \"material_in_spoon\", \"sugar_pile_disturbed\"],\n  \"confidence\": 0.8\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0002_pre",
+          "state_summary": "Spoon is near the brown sugar container, partially loaded with sugar.",
+          "predicates": [
+            "tool_near_source",
+            "tool_loaded",
+            "material_in_spoon",
+            "sugar_pile_disturbed"
+          ],
+          "confidence": 0.8
+        },
+        "state_summary": "Spoon is near the brown sugar container, partially loaded with sugar.",
+        "predicates": [
+          "tool_near_source",
+          "tool_loaded",
+          "material_in_spoon",
+          "sugar_pile_disturbed"
+        ],
+        "confidence": 0.8
+      }
+    },
+    {
+      "raw_node_id": "raw_node_0002_post",
+      "trajectory_id": "tau_0002",
+      "role": "post_state",
+      "frame_id": 62,
+      "image_path": "node_images/raw_node_0002_post.jpg",
+      "state_summary": "Spoon is near the container with brown sugar, touching it slightly.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0002_post\",\n  \"state_summary\": \"Spoon is near the container with brown sugar, touching it slightly.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\"],\n  \"confidence\": 0.8\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0002_post",
+          "state_summary": "Spoon is near the container with brown sugar, touching it slightly.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon"
+          ],
+          "confidence": 0.8
+        },
+        "state_summary": "Spoon is near the container with brown sugar, touching it slightly.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon"
+        ],
+        "confidence": 0.8
+      }
+    },
+    {
+      "raw_node_id": "raw_node_0003_pre",
+      "trajectory_id": "tau_0003",
+      "role": "pre_state",
+      "frame_id": 63,
+      "image_path": "node_images/raw_node_0003_pre.jpg",
+      "state_summary": "Spoon is near the brown sugar container, touching the sugar pile.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon",
+        "sugar_pile_disturbed"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0003_pre\",\n  \"state_summary\": \"Spoon is near the brown sugar container, touching the sugar pile.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\", \"sugar_pile_disturbed\"],\n  \"confidence\": 0.8\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0003_pre",
+          "state_summary": "Spoon is near the brown sugar container, touching the sugar pile.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon",
+            "sugar_pile_disturbed"
+          ],
+          "confidence": 0.8
+        },
+        "state_summary": "Spoon is near the brown sugar container, touching the sugar pile.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon",
+          "sugar_pile_disturbed"
+        ],
+        "confidence": 0.8
+      }
+    },
+    {
+      "raw_node_id": "raw_node_0003_post",
+      "trajectory_id": "tau_0003",
+      "role": "post_state",
+      "frame_id": 89,
+      "image_path": "node_images/raw_node_0003_post.jpg",
+      "state_summary": "Spoon is near the brown sugar, touching it, and appears to contain some material. The sugar pile is disturbed, and the spoon is positioned over the bucket.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon",
+        "sugar_pile_disturbed"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0003_post\",\n  \"state_summary\": \"Spoon is near the brown sugar, touching it, and appears to contain some material. The sugar pile is disturbed, and the spoon is positioned over the bucket.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\", \"sugar_pile_disturbed\"],\n  \"confidence\": 0.9\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0003_post",
+          "state_summary": "Spoon is near the brown sugar, touching it, and appears to contain some material. The sugar pile is disturbed, and the spoon is positioned over the bucket.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon",
+            "sugar_pile_disturbed"
+          ],
+          "confidence": 0.9
+        },
+        "state_summary": "Spoon is near the brown sugar, touching it, and appears to contain some material. The sugar pile is disturbed, and the spoon is positioned over the bucket.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon",
+          "sugar_pile_disturbed"
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "raw_node_id": "raw_node_0004_pre",
+      "trajectory_id": "tau_0004",
+      "role": "pre_state",
+      "frame_id": 90,
+      "image_path": "node_images/raw_node_0004_pre.jpg",
+      "state_summary": "Spoon is near the brown sugar, touching it slightly.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0004_pre\",\n  \"state_summary\": \"Spoon is near the brown sugar, touching it slightly.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\"],\n  \"confidence\": 0.8\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0004_pre",
+          "state_summary": "Spoon is near the brown sugar, touching it slightly.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon"
+          ],
+          "confidence": 0.8
+        },
+        "state_summary": "Spoon is near the brown sugar, touching it slightly.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon"
+        ],
+        "confidence": 0.8
+      }
+    },
+    {
+      "raw_node_id": "raw_node_0004_post",
+      "trajectory_id": "tau_0004",
+      "role": "post_state",
+      "frame_id": 107,
+      "image_path": "node_images/raw_node_0004_post.jpg",
+      "state_summary": "Spoon is near the container with brown sugar, touching it slightly.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon",
+        "material_deposited"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0004_post\",\n  \"state_summary\": \"Spoon is near the container with brown sugar, touching it slightly.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\"],\n  \"confidence\": 0.8\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0004_post",
+          "state_summary": "Spoon is near the container with brown sugar, touching it slightly.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon",
+            "material_deposited"
+          ],
+          "confidence": 0.8
+        },
+        "state_summary": "Spoon is near the container with brown sugar, touching it slightly.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon",
+          "material_deposited"
+        ],
+        "confidence": 0.8
+      }
+    },
+    {
+      "raw_node_id": "raw_node_0005_pre",
+      "trajectory_id": "tau_0005",
+      "role": "pre_state",
+      "frame_id": 108,
+      "image_path": "node_images/raw_node_0005_pre.jpg",
+      "state_summary": "Spoon is near the brown sugar container, touching the sugar pile.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon",
+        "sugar_pile_disturbed"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0005_pre\",\n  \"state_summary\": \"Spoon is near the brown sugar container, touching the sugar pile.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\", \"sugar_pile_disturbed\"],\n  \"confidence\": 0.9\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0005_pre",
+          "state_summary": "Spoon is near the brown sugar container, touching the sugar pile.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon",
+            "sugar_pile_disturbed"
+          ],
+          "confidence": 0.9
+        },
+        "state_summary": "Spoon is near the brown sugar container, touching the sugar pile.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon",
+          "sugar_pile_disturbed"
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "raw_node_id": "raw_node_0005_post",
+      "trajectory_id": "tau_0005",
+      "role": "post_state",
+      "frame_id": 119,
+      "image_path": "node_images/raw_node_0005_post.jpg",
+      "state_summary": "Spoon is near the brown sugar container, touching it slightly.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon",
+        "material_deposited"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0005_post\",\n  \"state_summary\": \"Spoon is near the brown sugar container, touching it slightly.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\"],\n  \"confidence\": 0.8\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0005_post",
+          "state_summary": "Spoon is near the brown sugar container, touching it slightly.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon",
+            "material_deposited"
+          ],
+          "confidence": 0.8
+        },
+        "state_summary": "Spoon is near the brown sugar container, touching it slightly.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon",
+          "material_deposited"
+        ],
+        "confidence": 0.8
+      }
+    },
+    {
+      "raw_node_id": "raw_node_0006_pre",
+      "trajectory_id": "tau_0006",
+      "role": "pre_state",
+      "frame_id": 120,
+      "image_path": "node_images/raw_node_0006_pre.jpg",
+      "state_summary": "Spoon near the brown sugar container, touching the sugar pile.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon",
+        "sugar_pile_disturbed"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0006_pre\",\n  \"state_summary\": \"Spoon near the brown sugar container, touching the sugar pile.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\", \"sugar_pile_disturbed\"],\n  \"confidence\": 0.9\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0006_pre",
+          "state_summary": "Spoon near the brown sugar container, touching the sugar pile.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon",
+            "sugar_pile_disturbed"
+          ],
+          "confidence": 0.9
+        },
+        "state_summary": "Spoon near the brown sugar container, touching the sugar pile.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon",
+          "sugar_pile_disturbed"
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "raw_node_id": "raw_node_0006_post",
+      "trajectory_id": "tau_0006",
+      "role": "post_state",
+      "frame_id": 129,
+      "image_path": "node_images/raw_node_0006_post.jpg",
+      "state_summary": "Spoon is near the brown sugar container, touching it slightly.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0006_post\",\n  \"state_summary\": \"Spoon is near the brown sugar container, touching it slightly.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\"],\n  \"confidence\": 0.8\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0006_post",
+          "state_summary": "Spoon is near the brown sugar container, touching it slightly.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon"
+          ],
+          "confidence": 0.8
+        },
+        "state_summary": "Spoon is near the brown sugar container, touching it slightly.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon"
+        ],
+        "confidence": 0.8
+      }
+    }
+  ],
+  "abstract_nodes": [
+    {
+      "abstract_node_id": "state_0000",
+      "representative_raw_node_id": "raw_node_0000_pre",
+      "representative_image_path": "node_images/raw_node_0000_pre.jpg",
+      "representative_frame_id": 0,
+      "representative_role": "pre_state",
+      "state_summary": "Spoon is near the container with brown sugar, touching the sugar pile.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon",
+        "sugar_pile_disturbed"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0000_pre\",\n  \"state_summary\": \"Spoon is near the container with brown sugar, touching the sugar pile.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\", \"sugar_pile_disturbed\"],\n  \"confidence\": 0.8\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0000_pre",
+          "state_summary": "Spoon is near the container with brown sugar, touching the sugar pile.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon",
+            "sugar_pile_disturbed"
+          ],
+          "confidence": 0.8
+        },
+        "state_summary": "Spoon is near the container with brown sugar, touching the sugar pile.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon",
+          "sugar_pile_disturbed"
+        ],
+        "confidence": 0.8
+      },
+      "members": [
+        "raw_node_0000_pre"
+      ],
+      "equivalence_checks": []
+    },
+    {
+      "abstract_node_id": "state_0001",
+      "representative_raw_node_id": "raw_node_0000_post",
+      "representative_image_path": "node_images/raw_node_0000_post.jpg",
+      "representative_frame_id": 17,
+      "representative_role": "post_state",
+      "state_summary": "Spoon is near the brown sugar container, stirring it.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon",
+        "sugar_pile_disturbed"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0000_post\",\n  \"state_summary\": \"Spoon is near the brown sugar container, stirring it.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\", \"sugar_pile_disturbed\"],\n  \"confidence\": 0.9\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0000_post",
+          "state_summary": "Spoon is near the brown sugar container, stirring it.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon",
+            "sugar_pile_disturbed"
+          ],
+          "confidence": 0.9
+        },
+        "state_summary": "Spoon is near the brown sugar container, stirring it.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon",
+          "sugar_pile_disturbed"
+        ],
+        "confidence": 0.9
+      },
+      "members": [
+        "raw_node_0000_post"
+      ],
+      "equivalence_checks": []
+    },
+    {
+      "abstract_node_id": "state_0002",
+      "representative_raw_node_id": "raw_node_0001_pre",
+      "representative_image_path": "node_images/raw_node_0001_pre.jpg",
+      "representative_frame_id": 18,
+      "representative_role": "pre_state",
+      "state_summary": "Spoon is near the brown sugar container, stirring the sugar.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon",
+        "sugar_pile_disturbed"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0001_pre\",\n  \"state_summary\": \"Spoon is near the brown sugar container, stirring the sugar.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\", \"sugar_pile_disturbed\"],\n  \"confidence\": 0.9\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0001_pre",
+          "state_summary": "Spoon is near the brown sugar container, stirring the sugar.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon",
+            "sugar_pile_disturbed"
+          ],
+          "confidence": 0.9
+        },
+        "state_summary": "Spoon is near the brown sugar container, stirring the sugar.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon",
+          "sugar_pile_disturbed"
+        ],
+        "confidence": 0.9
+      },
+      "members": [
+        "raw_node_0001_pre"
+      ],
+      "equivalence_checks": []
+    },
+    {
+      "abstract_node_id": "state_0003",
+      "representative_raw_node_id": "raw_node_0001_post",
+      "representative_image_path": "node_images/raw_node_0001_post.jpg",
+      "representative_frame_id": 44,
+      "representative_role": "post_state",
+      "state_summary": "Spoon is near the brown sugar container, partially submerged in the sugar pile.",
+      "predicates": [
+        "tool_near_source",
+        "tool_near_target",
+        "tool_loaded",
+        "material_in_spoon",
+        "sugar_pile_disturbed"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0001_post\",\n  \"state_summary\": \"Spoon is near the brown sugar container, partially submerged in the sugar pile.\",\n  \"predicates\": [\"tool_near_source\", \"tool_near_target\", \"tool_loaded\", \"material_in_spoon\", \"sugar_pile_disturbed\"],\n  \"confidence\": 0.8\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0001_post",
+          "state_summary": "Spoon is near the brown sugar container, partially submerged in the sugar pile.",
+          "predicates": [
+            "tool_near_source",
+            "tool_near_target",
+            "tool_loaded",
+            "material_in_spoon",
+            "sugar_pile_disturbed"
+          ],
+          "confidence": 0.8
+        },
+        "state_summary": "Spoon is near the brown sugar container, partially submerged in the sugar pile.",
+        "predicates": [
+          "tool_near_source",
+          "tool_near_target",
+          "tool_loaded",
+          "material_in_spoon",
+          "sugar_pile_disturbed"
+        ],
+        "confidence": 0.8
+      },
+      "members": [
+        "raw_node_0001_post"
+      ],
+      "equivalence_checks": []
+    },
+    {
+      "abstract_node_id": "state_0004",
+      "representative_raw_node_id": "raw_node_0002_pre",
+      "representative_image_path": "node_images/raw_node_0002_pre.jpg",
+      "representative_frame_id": 45,
+      "representative_role": "pre_state",
+      "state_summary": "Spoon is near the brown sugar container, partially loaded with sugar.",
+      "predicates": [
+        "tool_near_source",
+        "tool_loaded",
+        "material_in_spoon",
+        "sugar_pile_disturbed"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0002_pre\",\n  \"state_summary\": \"Spoon is near the brown sugar container, partially loaded with sugar.\",\n  \"predicates\": [\"tool_near_source\", \"tool_loaded\", \"material_in_spoon\", \"sugar_pile_disturbed\"],\n  \"confidence\": 0.8\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0002_pre",
+          "state_summary": "Spoon is near the brown sugar container, partially loaded with sugar.",
+          "predicates": [
+            "tool_near_source",
+            "tool_loaded",
+            "material_in_spoon",
+            "sugar_pile_disturbed"
+          ],
+          "confidence": 0.8
+        },
+        "state_summary": "Spoon is near the brown sugar container, partially loaded with sugar.",
+        "predicates": [
+          "tool_near_source",
+          "tool_loaded",
+          "material_in_spoon",
+          "sugar_pile_disturbed"
+        ],
+        "confidence": 0.8
+      },
+      "members": [
+        "raw_node_0002_pre"
+      ],
+      "equivalence_checks": []
+    },
+    {
+      "abstract_node_id": "state_0005",
+      "representative_raw_node_id": "raw_node_0002_post",
+      "representative_image_path": "node_images/raw_node_0002_post.jpg",
+      "representative_frame_id": 62,
+      "representative_role": "post_state",
+      "state_summary": "Spoon is near the container with brown sugar, touching it slightly.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0002_post\",\n  \"state_summary\": \"Spoon is near the container with brown sugar, touching it slightly.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\"],\n  \"confidence\": 0.8\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0002_post",
+          "state_summary": "Spoon is near the container with brown sugar, touching it slightly.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon"
+          ],
+          "confidence": 0.8
+        },
+        "state_summary": "Spoon is near the container with brown sugar, touching it slightly.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon"
+        ],
+        "confidence": 0.8
+      },
+      "members": [
+        "raw_node_0002_post"
+      ],
+      "equivalence_checks": []
+    },
+    {
+      "abstract_node_id": "state_0006",
+      "representative_raw_node_id": "raw_node_0003_pre",
+      "representative_image_path": "node_images/raw_node_0003_pre.jpg",
+      "representative_frame_id": 63,
+      "representative_role": "pre_state",
+      "state_summary": "Spoon is near the brown sugar container, touching the sugar pile.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon",
+        "sugar_pile_disturbed"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0003_pre\",\n  \"state_summary\": \"Spoon is near the brown sugar container, touching the sugar pile.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\", \"sugar_pile_disturbed\"],\n  \"confidence\": 0.8\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0003_pre",
+          "state_summary": "Spoon is near the brown sugar container, touching the sugar pile.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon",
+            "sugar_pile_disturbed"
+          ],
+          "confidence": 0.8
+        },
+        "state_summary": "Spoon is near the brown sugar container, touching the sugar pile.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon",
+          "sugar_pile_disturbed"
+        ],
+        "confidence": 0.8
+      },
+      "members": [
+        "raw_node_0003_pre"
+      ],
+      "equivalence_checks": []
+    },
+    {
+      "abstract_node_id": "state_0007",
+      "representative_raw_node_id": "raw_node_0003_post",
+      "representative_image_path": "node_images/raw_node_0003_post.jpg",
+      "representative_frame_id": 89,
+      "representative_role": "post_state",
+      "state_summary": "Spoon is near the brown sugar, touching it, and appears to contain some material. The sugar pile is disturbed, and the spoon is positioned over the bucket.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon",
+        "sugar_pile_disturbed"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0003_post\",\n  \"state_summary\": \"Spoon is near the brown sugar, touching it, and appears to contain some material. The sugar pile is disturbed, and the spoon is positioned over the bucket.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\", \"sugar_pile_disturbed\"],\n  \"confidence\": 0.9\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0003_post",
+          "state_summary": "Spoon is near the brown sugar, touching it, and appears to contain some material. The sugar pile is disturbed, and the spoon is positioned over the bucket.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon",
+            "sugar_pile_disturbed"
+          ],
+          "confidence": 0.9
+        },
+        "state_summary": "Spoon is near the brown sugar, touching it, and appears to contain some material. The sugar pile is disturbed, and the spoon is positioned over the bucket.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon",
+          "sugar_pile_disturbed"
+        ],
+        "confidence": 0.9
+      },
+      "members": [
+        "raw_node_0003_post"
+      ],
+      "equivalence_checks": []
+    },
+    {
+      "abstract_node_id": "state_0008",
+      "representative_raw_node_id": "raw_node_0004_pre",
+      "representative_image_path": "node_images/raw_node_0004_pre.jpg",
+      "representative_frame_id": 90,
+      "representative_role": "pre_state",
+      "state_summary": "Spoon is near the brown sugar, touching it slightly.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0004_pre\",\n  \"state_summary\": \"Spoon is near the brown sugar, touching it slightly.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\"],\n  \"confidence\": 0.8\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0004_pre",
+          "state_summary": "Spoon is near the brown sugar, touching it slightly.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon"
+          ],
+          "confidence": 0.8
+        },
+        "state_summary": "Spoon is near the brown sugar, touching it slightly.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon"
+        ],
+        "confidence": 0.8
+      },
+      "members": [
+        "raw_node_0004_pre"
+      ],
+      "equivalence_checks": []
+    },
+    {
+      "abstract_node_id": "state_0009",
+      "representative_raw_node_id": "raw_node_0004_post",
+      "representative_image_path": "node_images/raw_node_0004_post.jpg",
+      "representative_frame_id": 107,
+      "representative_role": "post_state",
+      "state_summary": "Spoon is near the container with brown sugar, touching it slightly.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon",
+        "material_deposited"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0004_post\",\n  \"state_summary\": \"Spoon is near the container with brown sugar, touching it slightly.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\"],\n  \"confidence\": 0.8\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0004_post",
+          "state_summary": "Spoon is near the container with brown sugar, touching it slightly.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon",
+            "material_deposited"
+          ],
+          "confidence": 0.8
+        },
+        "state_summary": "Spoon is near the container with brown sugar, touching it slightly.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon",
+          "material_deposited"
+        ],
+        "confidence": 0.8
+      },
+      "members": [
+        "raw_node_0004_post"
+      ],
+      "equivalence_checks": []
+    },
+    {
+      "abstract_node_id": "state_0010",
+      "representative_raw_node_id": "raw_node_0005_pre",
+      "representative_image_path": "node_images/raw_node_0005_pre.jpg",
+      "representative_frame_id": 108,
+      "representative_role": "pre_state",
+      "state_summary": "Spoon is near the brown sugar container, touching the sugar pile.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon",
+        "sugar_pile_disturbed"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0005_pre\",\n  \"state_summary\": \"Spoon is near the brown sugar container, touching the sugar pile.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\", \"sugar_pile_disturbed\"],\n  \"confidence\": 0.9\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0005_pre",
+          "state_summary": "Spoon is near the brown sugar container, touching the sugar pile.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon",
+            "sugar_pile_disturbed"
+          ],
+          "confidence": 0.9
+        },
+        "state_summary": "Spoon is near the brown sugar container, touching the sugar pile.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon",
+          "sugar_pile_disturbed"
+        ],
+        "confidence": 0.9
+      },
+      "members": [
+        "raw_node_0005_pre"
+      ],
+      "equivalence_checks": []
+    },
+    {
+      "abstract_node_id": "state_0011",
+      "representative_raw_node_id": "raw_node_0005_post",
+      "representative_image_path": "node_images/raw_node_0005_post.jpg",
+      "representative_frame_id": 119,
+      "representative_role": "post_state",
+      "state_summary": "Spoon is near the brown sugar container, touching it slightly.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon",
+        "material_deposited"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0005_post\",\n  \"state_summary\": \"Spoon is near the brown sugar container, touching it slightly.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\"],\n  \"confidence\": 0.8\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0005_post",
+          "state_summary": "Spoon is near the brown sugar container, touching it slightly.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon",
+            "material_deposited"
+          ],
+          "confidence": 0.8
+        },
+        "state_summary": "Spoon is near the brown sugar container, touching it slightly.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon",
+          "material_deposited"
+        ],
+        "confidence": 0.8
+      },
+      "members": [
+        "raw_node_0005_post"
+      ],
+      "equivalence_checks": []
+    },
+    {
+      "abstract_node_id": "state_0012",
+      "representative_raw_node_id": "raw_node_0006_pre",
+      "representative_image_path": "node_images/raw_node_0006_pre.jpg",
+      "representative_frame_id": 120,
+      "representative_role": "pre_state",
+      "state_summary": "Spoon near the brown sugar container, touching the sugar pile.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon",
+        "sugar_pile_disturbed"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0006_pre\",\n  \"state_summary\": \"Spoon near the brown sugar container, touching the sugar pile.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\", \"sugar_pile_disturbed\"],\n  \"confidence\": 0.9\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0006_pre",
+          "state_summary": "Spoon near the brown sugar container, touching the sugar pile.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon",
+            "sugar_pile_disturbed"
+          ],
+          "confidence": 0.9
+        },
+        "state_summary": "Spoon near the brown sugar container, touching the sugar pile.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon",
+          "sugar_pile_disturbed"
+        ],
+        "confidence": 0.9
+      },
+      "members": [
+        "raw_node_0006_pre"
+      ],
+      "equivalence_checks": []
+    },
+    {
+      "abstract_node_id": "state_0013",
+      "representative_raw_node_id": "raw_node_0006_post",
+      "representative_image_path": "node_images/raw_node_0006_post.jpg",
+      "representative_frame_id": 129,
+      "representative_role": "post_state",
+      "state_summary": "Spoon is near the brown sugar container, touching it slightly.",
+      "predicates": [
+        "tool_near_source",
+        "tool_touching_source",
+        "material_in_spoon"
+      ],
+      "state_inference": {
+        "raw_vlm_output": "```json\n{\n  \"node_id\": \"raw_node_0006_post\",\n  \"state_summary\": \"Spoon is near the brown sugar container, touching it slightly.\",\n  \"predicates\": [\"tool_near_source\", \"tool_touching_source\", \"material_in_spoon\"],\n  \"confidence\": 0.8\n}\n```",
+        "parsed_vlm_output": {
+          "node_id": "raw_node_0006_post",
+          "state_summary": "Spoon is near the brown sugar container, touching it slightly.",
+          "predicates": [
+            "tool_near_source",
+            "tool_touching_source",
+            "material_in_spoon"
+          ],
+          "confidence": 0.8
+        },
+        "state_summary": "Spoon is near the brown sugar container, touching it slightly.",
+        "predicates": [
+          "tool_near_source",
+          "tool_touching_source",
+          "material_in_spoon"
+        ],
+        "confidence": 0.8
+      },
+      "members": [
+        "raw_node_0006_post"
+      ],
+      "equivalence_checks": []
+    }
+  ],
+  "edges": [
+    {
+      "trajectory_id": "tau_0000",
+      "segment_start_frame": 0,
+      "segment_end_frame": 18,
+      "source": "state_0000",
+      "target": "state_0001",
+      "raw_source": "raw_node_0000_pre",
+      "raw_target": "raw_node_0000_post",
+      "source_was_merged": false,
+      "target_was_merged": false,
+      "expected_skill_label": null,
+      "skill_label": "scoop",
+      "vlm_skill_label": "scoop",
+      "motion_heuristic_label": "scoop",
+      "label_source": "vlm_with_owlv2_motion_context",
+      "motion_evidence": {
+        "delta_distance_to_sugar": -70.24147033691406,
+        "delta_distance_to_bucket": -54.5428466796875,
+        "delta_spoon_y": 64.2559814453125,
+        "delta_iou_spoon_sugar": 0.08083344995975494,
+        "delta_iou_spoon_bucket": 0.0,
+        "mean_spoon_speed": 12.314361572265625,
+        "mean_iou_spoon_sugar": 0.0582011453807354,
+        "mean_iou_spoon_bucket": 0.0
+      },
+      "motion_evidence_available": true,
+      "motion_evidence_debug_note": "OWLv2 motion summary attached.",
+      "full_motion_context": {
+        "summary": {
+          "delta_distance_to_sugar": -70.24147033691406,
+          "delta_distance_to_bucket": -54.5428466796875,
+          "delta_spoon_y": 64.2559814453125,
+          "delta_iou_spoon_sugar": 0.08083344995975494,
+          "delta_iou_spoon_bucket": 0.0,
+          "mean_spoon_speed": 12.314361572265625,
+          "mean_iou_spoon_sugar": 0.0582011453807354,
+          "mean_iou_spoon_bucket": 0.0
+        },
+        "heuristic_prior": "scoop",
+        "available": true,
+        "debug_note": "OWLv2 motion summary attached."
+      },
+      "candidate_skill_labels": [
+        "scoop",
+        "approach"
+      ],
+      "confidence": 0.9,
+      "raw_vlm_output": "{\n  \"trajectory_id\": \"tau_0000\",\n  \"skill_label\": \"scoop\",\n  \"confidence\": 0.9,\n  \"reason\": \"The spoon is moving closer to the brown sugar, indicating an attempt to collect or scoop the sugar. The delta_distance_to_sugar value is negative, suggesting the spoon is approaching the sugar pile.\"\n}",
+      "parsed_vlm_output": {
+        "trajectory_id": "tau_0000",
+        "skill_label": "scoop",
+        "confidence": 0.9,
+        "reason": "The spoon is moving closer to the brown sugar, indicating an attempt to collect or scoop the sugar. The delta_distance_to_sugar value is negative, suggesting the spoon is approaching the sugar pile."
+      }
+    },
+    {
+      "trajectory_id": "tau_0001",
+      "segment_start_frame": 18,
+      "segment_end_frame": 45,
+      "source": "state_0001",
+      "target": "state_0003",
+      "raw_source": "raw_node_0001_pre",
+      "raw_target": "raw_node_0001_post",
+      "source_was_merged": false,
+      "target_was_merged": false,
+      "expected_skill_label": null,
+      "skill_label": "scoop",
+      "vlm_skill_label": "scoop",
+      "motion_heuristic_label": "scoop",
+      "label_source": "vlm_with_owlv2_motion_context",
+      "motion_evidence": {
+        "delta_distance_to_sugar": -65.5086669921875,
+        "delta_distance_to_bucket": -28.18365478515625,
+        "delta_spoon_y": 87.2081298828125,
+        "delta_iou_spoon_sugar": 0.16075371205806732,
+        "delta_iou_spoon_bucket": 0.0,
+        "mean_spoon_speed": 15.59658145904541,
+        "mean_iou_spoon_sugar": 0.26649051904678345,
+        "mean_iou_spoon_bucket": 0.0
+      },
+      "motion_evidence_available": true,
+      "motion_evidence_debug_note": "OWLv2 motion summary attached.",
+      "full_motion_context": {
+        "summary": {
+          "delta_distance_to_sugar": -65.5086669921875,
+          "delta_distance_to_bucket": -28.18365478515625,
+          "delta_spoon_y": 87.2081298828125,
+          "delta_iou_spoon_sugar": 0.16075371205806732,
+          "delta_iou_spoon_bucket": 0.0,
+          "mean_spoon_speed": 15.59658145904541,
+          "mean_iou_spoon_sugar": 0.26649051904678345,
+          "mean_iou_spoon_bucket": 0.0
+        },
+        "heuristic_prior": "scoop",
+        "available": true,
+        "debug_note": "OWLv2 motion summary attached."
+      },
+      "candidate_skill_labels": [
+        "scoop",
+        "approach"
+      ],
+      "confidence": 0.9,
+      "raw_vlm_output": "{\n  \"trajectory_id\": \"tau_0001\",\n  \"skill_label\": \"scoop\",\n  \"confidence\": 0.9,\n  \"reason\": \"The spoon is moving closer to the brown sugar, indicating an attempt to collect or scoop the sugar. The delta_distance_to_sugar value is negative, suggesting the spoon is approaching the sugar pile.\"\n}",
+      "parsed_vlm_output": {
+        "trajectory_id": "tau_0001",
+        "skill_label": "scoop",
+        "confidence": 0.9,
+        "reason": "The spoon is moving closer to the brown sugar, indicating an attempt to collect or scoop the sugar. The delta_distance_to_sugar value is negative, suggesting the spoon is approaching the sugar pile."
+      }
+    },
+    {
+      "trajectory_id": "tau_0002",
+      "segment_start_frame": 45,
+      "segment_end_frame": 63,
+      "source": "state_0003",
+      "target": "state_0005",
+      "raw_source": "raw_node_0002_pre",
+      "raw_target": "raw_node_0002_post",
+      "source_was_merged": false,
+      "target_was_merged": false,
+      "expected_skill_label": null,
+      "skill_label": "lift",
+      "vlm_skill_label": "lift",
+      "motion_heuristic_label": "lift",
+      "label_source": "vlm_with_owlv2_motion_context",
+      "motion_evidence": {
+        "delta_distance_to_sugar": 70.46681213378906,
+        "delta_distance_to_bucket": -1.1444091796875,
+        "delta_spoon_y": -129.02996826171875,
+        "delta_iou_spoon_sugar": -0.2932911217212677,
+        "delta_iou_spoon_bucket": 0.0,
+        "mean_spoon_speed": 25.456544876098633,
+        "mean_iou_spoon_sugar": 0.10276062041521072,
+        "mean_iou_spoon_bucket": 0.0
+      },
+      "motion_evidence_available": true,
+      "motion_evidence_debug_note": "OWLv2 motion summary attached.",
+      "full_motion_context": {
+        "summary": {
+          "delta_distance_to_sugar": 70.46681213378906,
+          "delta_distance_to_bucket": -1.1444091796875,
+          "delta_spoon_y": -129.02996826171875,
+          "delta_iou_spoon_sugar": -0.2932911217212677,
+          "delta_iou_spoon_bucket": 0.0,
+          "mean_spoon_speed": 25.456544876098633,
+          "mean_iou_spoon_sugar": 0.10276062041521072,
+          "mean_iou_spoon_bucket": 0.0
+        },
+        "heuristic_prior": "lift",
+        "available": true,
+        "debug_note": "OWLv2 motion summary attached."
+      },
+      "candidate_skill_labels": [
+        "lift",
+        "transport"
+      ],
+      "confidence": 0.9,
+      "raw_vlm_output": "```json\n{\n  \"trajectory_id\": \"tau_0002\",\n  \"skill_label\": \"scoop\",\n  \"confidence\": 0.9,\n  \"reason\": \"The spoon is actively entering the brown sugar, indicating a scoop action.\"\n}\n```",
+      "parsed_vlm_output": {
+        "trajectory_id": "tau_0002",
+        "skill_label": "scoop",
+        "confidence": 0.9,
+        "reason": "The spoon is actively entering the brown sugar, indicating a scoop action."
+      }
+    },
+    {
+      "trajectory_id": "tau_0003",
+      "segment_start_frame": 63,
+      "segment_end_frame": 90,
+      "source": "state_0005",
+      "target": "state_0007",
+      "raw_source": "raw_node_0003_pre",
+      "raw_target": "raw_node_0003_post",
+      "source_was_merged": false,
+      "target_was_merged": false,
+      "expected_skill_label": null,
+      "skill_label": "transport",
+      "vlm_skill_label": "transport",
+      "motion_heuristic_label": "transport",
+      "label_source": "vlm_with_owlv2_motion_context",
+      "motion_evidence": {
+        "delta_distance_to_sugar": 318.1509704589844,
+        "delta_distance_to_bucket": -303.5443420410156,
+        "delta_spoon_y": -145.46273803710938,
+        "delta_iou_spoon_sugar": 0.0,
+        "delta_iou_spoon_bucket": 0.016524260863661766,
+        "mean_spoon_speed": 71.45240783691406,
+        "mean_iou_spoon_sugar": 0.0,
+        "mean_iou_spoon_bucket": 0.001836028997786343
+      },
+      "motion_evidence_available": true,
+      "motion_evidence_debug_note": "OWLv2 motion summary attached.",
+      "full_motion_context": {
+        "summary": {
+          "delta_distance_to_sugar": 318.1509704589844,
+          "delta_distance_to_bucket": -303.5443420410156,
+          "delta_spoon_y": -145.46273803710938,
+          "delta_iou_spoon_sugar": 0.0,
+          "delta_iou_spoon_bucket": 0.016524260863661766,
+          "mean_spoon_speed": 71.45240783691406,
+          "mean_iou_spoon_sugar": 0.0,
+          "mean_iou_spoon_bucket": 0.001836028997786343
+        },
+        "heuristic_prior": "transport",
+        "available": true,
+        "debug_note": "OWLv2 motion summary attached."
+      },
+      "candidate_skill_labels": [
+        "transport",
+        "lift"
+      ],
+      "confidence": 0.9,
+      "raw_vlm_output": "```json\n{\n  \"trajectory_id\": \"tau_0003\",\n  \"skill_label\": \"scoop\",\n  \"confidence\": 0.9,\n  \"reason\": \"The spoon is moving downward towards the brown sugar, indicating an attempt to collect or scoop the material.\"\n}\n```",
+      "parsed_vlm_output": {
+        "trajectory_id": "tau_0003",
+        "skill_label": "scoop",
+        "confidence": 0.9,
+        "reason": "The spoon is moving downward towards the brown sugar, indicating an attempt to collect or scoop the material."
+      }
+    },
+    {
+      "trajectory_id": "tau_0004",
+      "segment_start_frame": 90,
+      "segment_end_frame": 108,
+      "source": "state_0007",
+      "target": "state_0009",
+      "raw_source": "raw_node_0004_pre",
+      "raw_target": "raw_node_0004_post",
+      "source_was_merged": false,
+      "target_was_merged": false,
+      "expected_skill_label": null,
+      "skill_label": "dump",
+      "vlm_skill_label": "dump",
+      "motion_heuristic_label": "dump",
+      "label_source": "vlm_with_owlv2_motion_context",
+      "motion_evidence": {
+        "delta_distance_to_sugar": 20.093505859375,
+        "delta_distance_to_bucket": -18.339447021484375,
+        "delta_spoon_y": 10.292327880859375,
+        "delta_iou_spoon_sugar": 0.0,
+        "delta_iou_spoon_bucket": 0.027016237378120422,
+        "mean_spoon_speed": 34.392513275146484,
+        "mean_iou_spoon_sugar": 0.0,
+        "mean_iou_spoon_bucket": 0.11373148113489151
+      },
+      "motion_evidence_available": true,
+      "motion_evidence_debug_note": "OWLv2 motion summary attached.",
+      "full_motion_context": {
+        "summary": {
+          "delta_distance_to_sugar": 20.093505859375,
+          "delta_distance_to_bucket": -18.339447021484375,
+          "delta_spoon_y": 10.292327880859375,
+          "delta_iou_spoon_sugar": 0.0,
+          "delta_iou_spoon_bucket": 0.027016237378120422,
+          "mean_spoon_speed": 34.392513275146484,
+          "mean_iou_spoon_sugar": 0.0,
+          "mean_iou_spoon_bucket": 0.11373148113489151
+        },
+        "heuristic_prior": "dump",
+        "available": true,
+        "debug_note": "OWLv2 motion summary attached."
+      },
+      "candidate_skill_labels": [
+        "dump",
+        "transport"
+      ],
+      "confidence": 0.9,
+      "raw_vlm_output": "{\n  \"trajectory_id\": \"tau_0004\",\n  \"skill_label\": \"scoop\",\n  \"confidence\": 0.9,\n  \"reason\": \"The spoon is moving downward towards the brown sugar, indicating an attempt to collect or scoop the sugar. The distance to the sugar is decreasing, suggesting the spoon is interacting with the sugar.\"\n}",
+      "parsed_vlm_output": {
+        "trajectory_id": "tau_0004",
+        "skill_label": "scoop",
+        "confidence": 0.9,
+        "reason": "The spoon is moving downward towards the brown sugar, indicating an attempt to collect or scoop the sugar. The distance to the sugar is decreasing, suggesting the spoon is interacting with the sugar."
+      }
+    },
+    {
+      "trajectory_id": "tau_0005",
+      "segment_start_frame": 108,
+      "segment_end_frame": 120,
+      "source": "state_0009",
+      "target": "state_0011",
+      "raw_source": "raw_node_0005_pre",
+      "raw_target": "raw_node_0005_post",
+      "source_was_merged": false,
+      "target_was_merged": false,
+      "expected_skill_label": null,
+      "skill_label": "approach",
+      "vlm_skill_label": "approach",
+      "motion_heuristic_label": "return",
+      "label_source": "vlm_with_owlv2_motion_context",
+      "motion_evidence": {
+        "delta_distance_to_sugar": -26.6229248046875,
+        "delta_distance_to_bucket": 17.201904296875,
+        "delta_spoon_y": 2.039398193359375,
+        "delta_iou_spoon_sugar": 0.0,
+        "delta_iou_spoon_bucket": -0.022670194506645203,
+        "mean_spoon_speed": 14.162433624267578,
+        "mean_iou_spoon_sugar": 0.0,
+        "mean_iou_spoon_bucket": 0.07761251926422119
+      },
+      "motion_evidence_available": true,
+      "motion_evidence_debug_note": "OWLv2 motion summary attached.",
+      "full_motion_context": {
+        "summary": {
+          "delta_distance_to_sugar": -26.6229248046875,
+          "delta_distance_to_bucket": 17.201904296875,
+          "delta_spoon_y": 2.039398193359375,
+          "delta_iou_spoon_sugar": 0.0,
+          "delta_iou_spoon_bucket": -0.022670194506645203,
+          "mean_spoon_speed": 14.162433624267578,
+          "mean_iou_spoon_sugar": 0.0,
+          "mean_iou_spoon_bucket": 0.07761251926422119
+        },
+        "heuristic_prior": "return",
+        "available": true,
+        "debug_note": "OWLv2 motion summary attached."
+      },
+      "candidate_skill_labels": [
+        "approach",
+        "none"
+      ],
+      "confidence": 0.8,
+      "raw_vlm_output": "```json\n{\n  \"trajectory_id\": \"tau_0005\",\n  \"skill_label\": \"scoop\",\n  \"confidence\": 0.8,\n  \"reason\": \"The spoon is moving towards the brown sugar container and there is an increase in the distance to the sugar, indicating that the spoon is entering or pushing through the sugar to collect material.\"\n}\n```",
+      "parsed_vlm_output": {
+        "trajectory_id": "tau_0005",
+        "skill_label": "scoop",
+        "confidence": 0.8,
+        "reason": "The spoon is moving towards the brown sugar container and there is an increase in the distance to the sugar, indicating that the spoon is entering or pushing through the sugar to collect material."
+      }
+    },
+    {
+      "trajectory_id": "tau_0006",
+      "segment_start_frame": 120,
+      "segment_end_frame": 130,
+      "source": "state_0011",
+      "target": "state_0013",
+      "raw_source": "raw_node_0006_pre",
+      "raw_target": "raw_node_0006_post",
+      "source_was_merged": false,
+      "target_was_merged": false,
+      "expected_skill_label": null,
+      "skill_label": "approach",
+      "vlm_skill_label": "approach",
+      "motion_heuristic_label": "return",
+      "label_source": "vlm_with_owlv2_motion_context",
+      "motion_evidence": {
+        "delta_distance_to_sugar": -79.44778442382812,
+        "delta_distance_to_bucket": 236.64596557617188,
+        "delta_spoon_y": -104.43814086914062,
+        "delta_iou_spoon_sugar": 0.0,
+        "delta_iou_spoon_bucket": -0.05676404386758804,
+        "mean_spoon_speed": 71.51618957519531,
+        "mean_iou_spoon_sugar": 0.0,
+        "mean_iou_spoon_bucket": 0.020735085010528564
+      },
+      "motion_evidence_available": true,
+      "motion_evidence_debug_note": "OWLv2 motion summary attached.",
+      "full_motion_context": {
+        "summary": {
+          "delta_distance_to_sugar": -79.44778442382812,
+          "delta_distance_to_bucket": 236.64596557617188,
+          "delta_spoon_y": -104.43814086914062,
+          "delta_iou_spoon_sugar": 0.0,
+          "delta_iou_spoon_bucket": -0.05676404386758804,
+          "mean_spoon_speed": 71.51618957519531,
+          "mean_iou_spoon_sugar": 0.0,
+          "mean_iou_spoon_bucket": 0.020735085010528564
+        },
+        "heuristic_prior": "return",
+        "available": true,
+        "debug_note": "OWLv2 motion summary attached."
+      },
+      "candidate_skill_labels": [
+        "approach",
+        "none"
+      ],
+      "confidence": 0.8,
+      "raw_vlm_output": "{\n  \"trajectory_id\": \"tau_0006\",\n  \"skill_label\": \"scoop\",\n  \"confidence\": 0.8,\n  \"reason\": \"The spoon is moving closer to the brown sugar, indicating an attempt to collect material from the container. The delta_distance_to_sugar value is negative, suggesting the spoon is approaching the sugar.\"\n}",
+      "parsed_vlm_output": {
+        "trajectory_id": "tau_0006",
+        "skill_label": "scoop",
+        "confidence": 0.8,
+        "reason": "The spoon is moving closer to the brown sugar, indicating an attempt to collect material from the container. The delta_distance_to_sugar value is negative, suggesting the spoon is approaching the sugar."
+      }
+    }
+  ],
+  "skill_vocabulary": [
+    "approach",
+    "scoop",
+    "lift",
+    "transport",
+    "dump",
+    "return",
+    "none"
+  ],
+  "state_hints": "\nA high-level state definition is defined by:\n- the spoon position relative to the brown sugar\n- the spoon position relative to the container with brown sugar\n- the spoon position relative to the bucket\n- whether the spoon contains brown sugar\n- the shape, height, and disturbance of the sugar pile\n- whether sugar has been deposited into the bucket\n\nUse abstract symbolic predicates such as:\n- tool_near_source, tool_touching_source, tool_loaded, tool_near_target, material_in_spoon, sugar_pile_disturbed\n\nImportant predicate rule:\n- Do NOT output material_deposited directly from the VLM state prompt.\n- material_deposited will be added later by the program only when bucket-contact / bucket-deposit evidence is strong.\n- If deposition is uncertain, describe the tool/bucket relation but omit material_deposited.\n\nIgnore:\n- lighting changes\n- small particle-level differences\n- camera noise\n- exact spoon coordinates\n- tiny pose differences that do not change the task-level state\n",
+  "segmentation_method": "owlv2_features_window_rbf",
+  "skill_labeling_method": "Qwen2.5-VL final label constrained by automatic OWLv2 motion candidate labels; transport is prioritized when motion moves away from sugar toward bucket; dump requires strong bucket contact; heuristic prior is used only when VLM outputs an invalid candidate",
+  "object_detector": {
+    "model_id": "google/owlv2-base-patch16-ensemble",
+    "object_prompts": {
+      "spoon": [
+        "spoon",
+        "metal spoon",
+        "scoop spoon",
+        "tool spoon"
+      ],
+      "brown_sugar": [
+        "brown sugar",
+        "sugar pile",
+        "brown sugar pile",
+        "granular material"
+      ],
+      "sugar_container": [
+        "container with brown sugar",
+        "container of brown sugar",
+        "sugar container",
+        "bowl with brown sugar"
+      ],
+      "bucket": [
+        "bucket",
+        "black bucket",
+        "container bucket",
+        "dump bucket"
+      ]
+    },
+    "score_threshold": 0.12,
+    "detection_stride": 3
+  },
+  "change_point_detector": {
+    "algorithm": "ruptures.Window(model='rbf')",
+    "input_features": "relative object positions, velocities, distance changes, IoU/contact changes, detection scores",
+    "min_segment_frames": 8,
+    "max_segment_frames": 28
+  },
+  "state_equivalence_confidence_threshold": 0.98,
+  "disable_state_merging_for_debug": true,
+  "segment_motion_summaries": {
+    "tau_0000": {
+      "summary": {
+        "delta_distance_to_sugar": -70.24147033691406,
+        "delta_distance_to_bucket": -54.5428466796875,
+        "delta_spoon_y": 64.2559814453125,
+        "delta_iou_spoon_sugar": 0.08083344995975494,
+        "delta_iou_spoon_bucket": 0.0,
+        "mean_spoon_speed": 12.314361572265625,
+        "mean_iou_spoon_sugar": 0.0582011453807354,
+        "mean_iou_spoon_bucket": 0.0
+      },
+      "heuristic_prior": "scoop",
+      "available": true,
+      "debug_note": "OWLv2 motion summary attached."
+    },
+    "tau_0001": {
+      "summary": {
+        "delta_distance_to_sugar": -65.5086669921875,
+        "delta_distance_to_bucket": -28.18365478515625,
+        "delta_spoon_y": 87.2081298828125,
+        "delta_iou_spoon_sugar": 0.16075371205806732,
+        "delta_iou_spoon_bucket": 0.0,
+        "mean_spoon_speed": 15.59658145904541,
+        "mean_iou_spoon_sugar": 0.26649051904678345,
+        "mean_iou_spoon_bucket": 0.0
+      },
+      "heuristic_prior": "scoop",
+      "available": true,
+      "debug_note": "OWLv2 motion summary attached."
+    },
+    "tau_0002": {
+      "summary": {
+        "delta_distance_to_sugar": 70.46681213378906,
+        "delta_distance_to_bucket": -1.1444091796875,
+        "delta_spoon_y": -129.02996826171875,
+        "delta_iou_spoon_sugar": -0.2932911217212677,
+        "delta_iou_spoon_bucket": 0.0,
+        "mean_spoon_speed": 25.456544876098633,
+        "mean_iou_spoon_sugar": 0.10276062041521072,
+        "mean_iou_spoon_bucket": 0.0
+      },
+      "heuristic_prior": "lift",
+      "available": true,
+      "debug_note": "OWLv2 motion summary attached."
+    },
+    "tau_0003": {
+      "summary": {
+        "delta_distance_to_sugar": 318.1509704589844,
+        "delta_distance_to_bucket": -303.5443420410156,
+        "delta_spoon_y": -145.46273803710938,
+        "delta_iou_spoon_sugar": 0.0,
+        "delta_iou_spoon_bucket": 0.016524260863661766,
+        "mean_spoon_speed": 71.45240783691406,
+        "mean_iou_spoon_sugar": 0.0,
+        "mean_iou_spoon_bucket": 0.001836028997786343
+      },
+      "heuristic_prior": "transport",
+      "available": true,
+      "debug_note": "OWLv2 motion summary attached."
+    },
+    "tau_0004": {
+      "summary": {
+        "delta_distance_to_sugar": 20.093505859375,
+        "delta_distance_to_bucket": -18.339447021484375,
+        "delta_spoon_y": 10.292327880859375,
+        "delta_iou_spoon_sugar": 0.0,
+        "delta_iou_spoon_bucket": 0.027016237378120422,
+        "mean_spoon_speed": 34.392513275146484,
+        "mean_iou_spoon_sugar": 0.0,
+        "mean_iou_spoon_bucket": 0.11373148113489151
+      },
+      "heuristic_prior": "dump",
+      "available": true,
+      "debug_note": "OWLv2 motion summary attached."
+    },
+    "tau_0005": {
+      "summary": {
+        "delta_distance_to_sugar": -26.6229248046875,
+        "delta_distance_to_bucket": 17.201904296875,
+        "delta_spoon_y": 2.039398193359375,
+        "delta_iou_spoon_sugar": 0.0,
+        "delta_iou_spoon_bucket": -0.022670194506645203,
+        "mean_spoon_speed": 14.162433624267578,
+        "mean_iou_spoon_sugar": 0.0,
+        "mean_iou_spoon_bucket": 0.07761251926422119
+      },
+      "heuristic_prior": "return",
+      "available": true,
+      "debug_note": "OWLv2 motion summary attached."
+    },
+    "tau_0006": {
+      "summary": {
+        "delta_distance_to_sugar": -79.44778442382812,
+        "delta_distance_to_bucket": 236.64596557617188,
+        "delta_spoon_y": -104.43814086914062,
+        "delta_iou_spoon_sugar": 0.0,
+        "delta_iou_spoon_bucket": -0.05676404386758804,
+        "mean_spoon_speed": 71.51618957519531,
+        "mean_iou_spoon_sugar": 0.0,
+        "mean_iou_spoon_bucket": 0.020735085010528564
+      },
+      "heuristic_prior": "return",
+      "available": true,
+      "debug_note": "OWLv2 motion summary attached."
+    }
+  }
+}
